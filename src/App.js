@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import MenuLayout from './MenuLayout';
+import MenuLayout from "./MenuLayout";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <BrowserRouter>
         <MenuLayout />
-      </div>
+      </BrowserRouter>
     );
   }
 }
