@@ -7,3 +7,30 @@ body {
 .menu {
   height: 100vh;
 }
+
+h1 {
+	padding-left: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+a.active.item {
+	background: #222222;
+}
+
+a.item {
+	margin-left: 50px;
+}
+
+i {
+	margin-left: 20px;
+	padding-top: 10px;
+	position: absolute;
+}
+button.ui.button {
+	bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 30px;
+    display: inline-block;
+}

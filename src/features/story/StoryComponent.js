@@ -6,10 +6,10 @@ class StoryComponent extends Component {
   render() {
     const buttonFlavours = [
       "Physical Exam",
-      "Other Thing",
-      "Please don't die you have so much to live for",
-      "Why are you so burnt",
-      "No really that does not look healthy"
+      "Question Patient",
+      "Transfer Patient",
+      "Give Anaesthetic",
+      "Other Option"
     ];
 
     return (

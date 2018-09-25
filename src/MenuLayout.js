@@ -25,27 +25,37 @@ class MenuLayout extends Component {
 
     return (
       <Grid>
-        <Grid.Column width={4}>
+        <Grid.Column width={2}>
           <Menu fluid vertical tabular className={"menu"}>
+            <h1>COMP3000</h1>
+            <i class="material-icons">account_circle</i>
             <Menu.Item
-              name="story"
-              active={activeItem === "story"}
+              name="Story"
+              active={activeItem === "Story"}
               onClick={(e, { name } ) => this.handleItemClick(e, name)}
             />
+            <i class="material-icons">bar_chart</i>
             <Menu.Item
-              name="charts"
-              active={activeItem === "charts"}
+              name="Charts"
+              active={activeItem === "Charts"}
               onClick={(e, { name } ) => this.handleItemClick(e, name)}
             />
+            <i class="material-icons">book</i>
             <Menu.Item
-              name="history"
-              active={activeItem === "history"}
+              name="History"
+              active={activeItem === "History"}
+              onClick={(e, { name } ) => this.handleItemClick(e, name)}
+            />
+            <i class="material-icons">apps</i>
+            <Menu.Item
+              name="App"
+              active={activeItem == "App"}
               onClick={(e, { name } ) => this.handleItemClick(e, name)}
             />
           </Menu>
         </Grid.Column>
 
-        <Grid.Column stretched width={12}>
+        <Grid.Column stretched width={14}>
           <Segment>
             <Switch>
               <Route
