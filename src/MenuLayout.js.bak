@@ -78,7 +78,7 @@ class MenuLayout extends Component {
                 path={"/app"}
                 exact={true}
                 render={() => <AppComponent />}
-              />
+              >
             </Switch>
           </Segment>
         </Grid.Column>

@@ -4,7 +4,6 @@ import { Grid, Menu, Segment } from "semantic-ui-react";
 import StoryComponent from "./features/story/StoryComponent";
 import ChartComponent from "./features/charts/ChartComponent";
 import HistoryComponent from "./features/history/HistoryComponent";
-import AppComponent from "./features/app/AppComponent";
 
 import { Switch, Route, withRouter } from 'react-router-dom';
 
@@ -50,7 +49,7 @@ class MenuLayout extends Component {
             <i class="material-icons">apps</i>
             <Menu.Item
               name="App"
-              active={activeItem === "App"}
+              active={activeItem == "App"}
               onClick={(e, { name } ) => this.handleItemClick(e, name)}
             />
           </Menu>
@@ -73,11 +72,6 @@ class MenuLayout extends Component {
                 path={"/history"}
                 exact={true}
                 render={() => <HistoryComponent />}
-              />
-              <Route
-                path={"/app"}
-                exact={true}
-                render={() => <AppComponent />}
               />
             </Switch>
           </Segment>
