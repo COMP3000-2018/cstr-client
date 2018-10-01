@@ -1,38 +1,60 @@
 import React, { Component } from "react";
 
-import { Container, Segment, Button } from "semantic-ui-react";
+import Slide from "./Slide";
 
 class StoryComponent extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      initialSlideId: "8ac3bcb9-5b6a-496b-b31a-c4ce706e87e2",
+      currentSlide: {},
+      loading: true
+    };
+  }
+
+  componentDidMount() {
+    console.log('Mounted');
+    const { initialSlideId } = this.state;
+
+    this.retrieveSlide(initialSlideId);
+  }
+
+  retrieveSlide(slideId) {
+    fetch(`http://localhost:1989/slides/${slideId}`)
+      .then(response => {
+        return response.json();
+      })
+      .then(currentSlide => {
+        this.setState({
+          loading: false,
+          currentSlide
+        });
+      });
+  }
+
+  changeSlide(slideId) {
+    this.retrieveSlide(slideId);
+  }
+
   render() {
-    const buttonFlavours = [
-      "Physical Exam",
-      "Question Patient",
-      "Transfer Patient",
-      "Give Anaesthetic",
-      "Other Option"
-    ];
+    const { loading, currentSlide } = this.state;
+
+    if (loading) {
+      return <div>Loading!</div>;
+    }
+
+    const { title, text, buttons } = currentSlide;
+
+    console.log('New slide information:', title, buttons);
 
     return (
-      <Segment>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-          Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-          imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
-          mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-          semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-          porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-          dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
-          ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-          ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
-        </p>
-        {buttonFlavours.map(flavour => {
-          return <Button>{flavour}</Button>;
-        })}
-      </Segment>
+      <Slide
+        changeSlide={slideId => this.changeSlide(slideId)}
+        title={title}
+        text={text}
+        buttons={buttons}
+      />
     );
   }
 }
