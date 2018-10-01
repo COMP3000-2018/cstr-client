@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container, Segment, Button } from "semantic-ui-react";
 
 class Slide extends Component {
   constructor(props) {
@@ -44,17 +43,17 @@ class Slide extends Component {
     const { title, text, buttons } = this.props;
 
     return (
-      <Segment>
+      <div>
         <h3>{title}</h3>
         <p>{text}</p>
-        {this.state.buttons.map(button => {
+        {/* {this.state.buttons.map(button => {
           return (
             <Button onClick={() => this.props.changeSlide(button.next_slide)}>
               {button.label}
             </Button>
           );
-        })}
-      </Segment>
+        })} */}
+      </div>
     );
   }
 }

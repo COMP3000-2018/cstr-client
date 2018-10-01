@@ -1,16 +1,20 @@
 import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import MenuLayout from "./MenuLayout";
+import Main from './Components/Main';
 
 // Test
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <MenuLayout />
-      </BrowserRouter>
+      <div className="App">
+        <BrowserRouter>
+          <Main />
+          {/* <MenuLayout /> */}
+        </BrowserRouter>
+
+      </div>
     );
   }
 }
