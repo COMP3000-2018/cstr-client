@@ -12,7 +12,7 @@ body {
 
 .content {
 	background-color: #f9fbfb;
-	flex-grow: 1;
+	width: 85vw;
 
 	display: flex;
 	justify-content: center;
@@ -77,10 +77,56 @@ body {
 .content-window {
 	background-color:white;
 
+	display: flex;
+
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.25);
 
 	height: 75%;
 	width: 80%;
 
 	padding: 10%;
+}
+
+.slide-title {
+	font-size: 28px;
+	color: #577f95;
+	font-weight: 700;
+
+	padding-bottom: 40px;
+}
+
+.slide-text {
+	font-size: 18px;
+	letter-spacing: 1px;
+
+	padding-bottom: 40px;
+}
+
+.slide-buttons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.slide-button {
+	background-color: #3a83bf;
+	color: white;
+
+	font-weight: 700;
+
+	height: 50px;
+	width: 200px;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 5px;
+}
+
+.slide-button:hover {
+	cursor: pointer;
 }
