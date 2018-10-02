@@ -1,0 +1,416 @@
+{
+  "cases": [
+    {
+      "slides": [
+        "8ac3bcb9-5b6a-496b-b31a-c4ce706e87e2"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "id": "8ac3bcb9-5b6a-496b-b31a-c4ce706e87e2",
+      "title": "Case Presentation",
+      "text": "Nathan is an 18-year-old male who is brought to Barcaldine Base Hospital with severe burns to his body. It is 6pm on a Saturday evening. Nathan was at a party tonight when he threw a can of kerosene on a bonfire which exploded, burning himself and five friends. His shirt and jeans caught alight and he ran around for about a minute before dropping to the ground and the flames were extinguished.",
+      "buttons": [
+        "f9fde341-f47c-4230-b8ac-1fd2a225c4ff"
+      ]
+    },
+    {
+      "id": "ef57ab0a-57a0-4796-b699-344a04c064ff",
+      "title": "What Would You Do Next? 1",
+      "text": "",
+      "buttons": [
+        "6744ef08-43ff-4f20-9e87-46f6d9592203",
+        "8968cd43-c364-4dc4-aefe-03afebab8693",
+        "0155ee68-b62a-42eb-b899-b99da7c960af",
+        "b4f90105-dab6-471d-8ca8-60308784bcf0",
+        "eccbd194-ff97-4b22-857e-03341dfadd0a",
+        "6b2accde-9c7e-4d94-95be-b514506d0853",
+        "83d922dd-de32-4a9c-87f6-7ee3956449a8"
+      ]
+    },
+    {
+      "id": "03d310ad-5bec-44d8-8719-b84d13a74fe5",
+      "title": "What are your assessment actions?",
+      "text": "",
+      "buttons": [
+        "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
+        "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
+        "be8cff6c-9c70-421e-877d-d95fc724681e",
+        "045b2958-fb61-43a8-9873-6fe017c6b790",
+        "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
+        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
+        "9a5cac2b-f658-426c-af4e-b23b7c1c975f"
+      ]
+    },
+    {
+      "id": "bf803373-3706-483a-9fd2-c615292b7b86",
+      "title": "What are your management actions?",
+      "text": "",
+      "buttons": [
+        "9a5cac2b-f658-426c-af4e-b23b7c1c975f",
+        "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
+        "4d9e07b4-a3f7-4090-bd28-0edc6f5cd0fa",
+        "687e7f6a-a37b-4ce0-8e91-a45081d376a2",
+        "7ed68d3e-f717-409b-931f-53351bbe19e2",
+        "d34f7904-9454-4358-9c1d-f1418de21016"
+      ]
+    },
+    {
+      "id": "084c37d3-175b-4656-ad06-4d8b6d7f3949",
+      "title": "Initial Assessment Results",
+      "text": "Nathan and is alert and oriented with a GCS of 15 [app]. . He states his pain as being worse in the neck and right arm with 8/10 pain. He is talking in full sentences with no stridor but on examination of his oral cavity he is found to have glottic swelling and carbonaceous sputum. He is noted to have cool extremities but all pulses are present. \n RR – 20 /min; SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular; BP – 120/70 mmHg; T – 35°C; WT – 75kg",
+      "buttons": [
+        "f2c309f2-ab22-454c-a504-7da3693f6125"
+      ]
+    },
+    {
+      "id": "e66fc783-567c-4641-9277-fc4d0871b292",
+      "title": "Initial Treatment Results",
+      "text": "Nathan and is alert and oriented with a GCS of 15 [app]. . He states his pain as being worse in the neck and right arm with 8/10 pain. He is talking in full sentences with no stridor but on examination of his oral cavity he is found to have glottic swelling and carbonaceous sputum. He is noted to have cool extremities but all pulses are present. \n RR – 20 /min; SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular; BP – 120/70 mmHg; T – 35°C; WT – 75kg",
+      "buttons": [
+        "cb67acaa-dd55-47ae-91f6-8f9af70af3b3"
+      ]
+    },
+    {
+      "id": "ddb3dc70-2df3-4589-8e44-abb87c9e3cfd",
+      "title": "What pain relief to use?",
+      "text": "",
+      "buttons": [
+        "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
+        "9990a95c-1b9b-415a-8713-0d8007d489e3",
+        "5c28424a-0f66-4958-b4d5-e99944cac6a8",
+        "11fe9125-3647-4026-81fd-943fd2769893",
+        "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
+        "d88d3f60-52aa-41b6-9c97-19dc309004ad"
+      ]
+    },
+    {
+      "id": "beb53cd7-5336-4d05-8e6f-d518c4dac7f1",
+      "title": "Evaluate Burns",
+      "text": "Nathan’s % total body surface area (%TBSA) of burn is calculated [app] using a Lund-Browder chart to be 62% with 59% full thickness burns, 2% deep dermal and 1% partial thickness burns. Both his arms have suffered circumferential burns from shoulder tip to hands. His neck, back and posterior legs have also been badly burnt with his face sustaining partial thickness burns from nose down.",
+      "buttons": [
+        "1de6363c-87d7-4a99-83b8-a2c91bce1ae7"
+      ]
+    },
+    {
+      "id": "",
+      "title": "Review Chart",
+      "text": "Being a small town, you are working as the hospital doctor and also a GP. Nathan is a 2nd year carpentry apprentice who lives with his brother just out of Barcaldine. He smokes 20 cigarettes a day and has done since he was 14 years old. He is also a regular marijuana smoker. He states that he drinks alcohol only socially. Nathan is normally well with no medical conditions. He had a tetanus booster when he started his apprenticeship at age 15. You last saw him 6 weeks ago with a cigarette lighter burn to his forearm. It is being managed conservatively.",
+      "buttons": [
+        "eabcf103-c317-4f02-80f4-70616af8997b"
+      ]
+    },
+    {
+      "id": "957fbb2f-8a75-4777-9f80-c59137b83491",
+      "title": "Transfer – ANZBA guidelines app",
+      "text": "Please open up the ANZBA app: ",
+      "buttons": [
+        "8001f4eb-69f9-43fa-b9e4-cea8693211ab",
+        "6b465a2d-96a9-4306-8fd3-a33842005633"
+      ]
+    },
+    {
+      "id": "154a0369-5f70-4ad2-9b9a-e1e4194e8a8b",
+      "title": "Transfer to Burn Unit",
+      "text": "It is quickly realised that Nathan’s injuries are too severe to be managed in a small rural hospital. Following the ANZBA guidelines* [app], transfer to the Burns Unit in Brisbane is arranged. Nathan’s burns are covered with Gladwrap in preparation for transport.",
+      "buttons": []
+    },
+    {
+      "id": "20f99d03-36d5-41c5-9928-d2cffe0a558a",
+      "title": "What Would You Do Next? 2",
+      "text": "",
+      "buttons": [
+        "6744ef08-43ff-4f20-9e87-46f6d9592203",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "b4f90105-dab6-471d-8ca8-60308784bcf0",
+        "eccbd194-ff97-4b22-857e-03341dfadd0a",
+        "6b2accde-9c7e-4d94-95be-b514506d0853",
+        "2fd7bf7d-eaba-4600-9433-83c454fd5cbf"
+      ]
+    },
+    {
+      "id": "86a4ce86-4de3-41ac-84e4-c4d89f6fa380",
+      "title": "What Would You Do Next? 3",
+      "text": "",
+      "buttons": [
+        "f1a48afb-01f1-47f3-8f48-1c43cf0728bc",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "b4f90105-dab6-471d-8ca8-60308784bcf0",
+        "eccbd194-ff97-4b22-857e-03341dfadd0a",
+        "6b2accde-9c7e-4d94-95be-b514506d0853",
+        "83d922dd-de32-4a9c-87f6-7ee3956449a8"
+      ]
+    },
+    {
+      "id": "a366cf72-e6ff-4741-9efd-9845789eb7c3",
+      "title": "What Would You Do Next? 4",
+      "text": "",
+      "buttons": [
+        "6744ef08-43ff-4f20-9e87-46f6d9592203",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+        "b4f90105-dab6-471d-8ca8-60308784bcf0",
+        "eccbd194-ff97-4b22-857e-03341dfadd0a",
+        "6b2accde-9c7e-4d94-95be-b514506d0853",
+        "c14d3ce4-7bb7-487a-8ba3-cc104b36bdcf"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "id": "6744ef08-43ff-4f20-9e87-46f6d9592203",
+      "label": "Review chart",
+      "error": "More important things to do right now",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "8968cd43-c364-4dc4-aefe-03afebab8693",
+      "label": "Assessment",
+      "error": "",
+      "success": "",
+      "next_slide": "03d310ad-5bec-44d8-8719-b84d13a74fe5"
+    },
+    {
+      "id": "0155ee68-b62a-42eb-b899-b99da7c960af",
+      "label": "Management",
+      "error": "",
+      "success": "",
+      "next_slide": "bf803373-3706-483a-9fd2-c615292b7b86"
+    },
+    {
+      "id": "b4f90105-dab6-471d-8ca8-60308784bcf0",
+      "label": "Order tests",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "eccbd194-ff97-4b22-857e-03341dfadd0a",
+      "label": "Take history",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "6b2accde-9c7e-4d94-95be-b514506d0853",
+      "label": "Admit",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "83d922dd-de32-4a9c-87f6-7ee3956449a8",
+      "label": "Transfer",
+      "error": "Don't need to yet",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
+      "label": "Airway and breathing",
+      "error": "",
+      "success": "",
+      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+    },
+    {
+      "id": "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
+      "label": "Circulation",
+      "error": "",
+      "success": "",
+      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+    },
+    {
+      "id": "be8cff6c-9c70-421e-877d-d95fc724681e",
+      "label": "Estimation of burn area",
+      "error": "",
+      "success": "",
+      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+    },
+    {
+      "id": "045b2958-fb61-43a8-9873-6fe017c6b790",
+      "label": "Level of consciousness",
+      "error": "",
+      "success": "",
+      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+    },
+    {
+      "id": "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
+      "label": "Mental health status",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "fd13743f-1db5-4c19-a599-ee42d0ef218e",
+      "label": "Abdomen examination",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "9a5cac2b-f658-426c-af4e-b23b7c1c975f",
+      "label": "Pain control",
+      "error": "",
+      "success": "",
+      "next_slide": "ddb3dc70-2df3-4589-8e44-abb87c9e3cfd"
+    },
+    {
+      "id": "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
+      "label": "Tetanus status",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "4d9e07b4-a3f7-4090-bd28-0edc6f5cd0fa",
+      "label": "ECG",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "687e7f6a-a37b-4ce0-8e91-a45081d376a2",
+      "label": "Blood administration",
+      "error": "Not important",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "7ed68d3e-f717-409b-931f-53351bbe19e2",
+      "label": "Fluid administration",
+      "error": "",
+      "success": "",
+      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+    },
+    {
+      "id": "d34f7904-9454-4358-9c1d-f1418de21016",
+      "label": "Intubation",
+      "error": "",
+      "success": "",
+      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+    },
+    {
+      "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
+      "label": "Paracetamol",
+      "error": "Not appropriate",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "9990a95c-1b9b-415a-8713-0d8007d489e3",
+      "label": "Ibuprofen",
+      "error": "Not appropriate",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "5c28424a-0f66-4958-b4d5-e99944cac6a8",
+      "label": "Codeine",
+      "error": "Not appropriate",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "11fe9125-3647-4026-81fd-943fd2769893",
+      "label": "Fentanyl",
+      "error": "RIP Lil Peep",
+      "success": "",
+      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+    },
+    {
+      "id": "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
+      "label": "Morphine",
+      "error": "",
+      "success": "",
+      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+    },
+    {
+      "id": "d88d3f60-52aa-41b6-9c97-19dc309004ad",
+      "label": "Distraction therapy",
+      "error": "Not appropriate",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "8001f4eb-69f9-43fa-b9e4-cea8693211ab",
+      "label": "Yes",
+      "error": "",
+      "success": "",
+      "next_slide": "154a0369-5f70-4ad2-9b9a-e1e4194e8a8b"
+    },
+    {
+      "id": "6b465a2d-96a9-4306-8fd3-a33842005633",
+      "label": "No",
+      "error": "Have another look at the guidelines",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "2fd7bf7d-eaba-4600-9433-83c454fd5cbf",
+      "label": "Assess burns",
+      "error": "",
+      "success": "",
+      "next_slide": "beb53cd7-5336-4d05-8e6f-d518c4dac7f1"
+    },
+    {
+      "id": "f1a48afb-01f1-47f3-8f48-1c43cf0728bc",
+      "label": "Review Chart",
+      "error": "",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "c14d3ce4-7bb7-487a-8ba3-cc104b36bdcf",
+      "label": "Transfer",
+      "error": "",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
+      "label": "Null",
+      "error": "Poop",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "f9fde341-f47c-4230-b8ac-1fd2a225c4ff",
+      "label": "Case Next",
+      "error": "",
+      "success": "",
+      "next_slide": "ef57ab0a-57a0-4796-b699-344a04c064ff"
+    },
+    {
+      "id": "f2c309f2-ab22-454c-a504-7da3693f6125",
+      "label": "Assessment Next",
+      "error": "",
+      "success": "",
+      "next_slide": "ddb3dc70-2df3-4589-8e44-abb87c9e3cfd"
+    },
+    {
+      "id": "cb67acaa-dd55-47ae-91f6-8f9af70af3b3",
+      "label": "Treatment Next",
+      "error": "",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "1de6363c-87d7-4a99-83b8-a2c91bce1ae7",
+      "label": "Eval Burns Next",
+      "error": "",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "eabcf103-c317-4f02-80f4-70616af8997b",
+      "label": "Review Chart Next",
+      "error": "",
+      "success": "",
+      "next_slide": ""
+    }
+  ]
+}
