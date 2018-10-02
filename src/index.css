@@ -1,36 +1,132 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-.menu {
-  height: 100vh;
+.App {
+	height: 100vh;
+	width: 100vw;
+
+	display: flex;
 }
 
-h1 {
-	padding-left: 10px;
-	padding-top: 20px;
+.content {
+	background-color: #f9fbfb;
+	width: 85vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar {
+	background-color: #577f95;
+	width: 15vw;
+	height: 100vh;
+
+	user-select: none;
+}
+
+.sidebar-header {
+	background-color: #4e7285;
+	color: white;
+
+	padding: 20px;
+
 	text-align: center;
+	font-size: 24px;
+	letter-spacing: 1px;
 }
 
-a.active.item {
-	background: #222222;
+.sidebar-items {
+	color: white;
+
+	font-size: 18px;
+	text-align: left;
 }
 
-a.item {
-	margin-left: 50px;
+.sidebar-item {
+	height: 60px;
+
+	display: flex;
+	align-items: center;
 }
 
-i {
-	margin-left: 20px;
-	padding-top: 10px;
-	position: absolute;
+.sidebar-item-content {
+	padding-left: 40px;
 }
-button.ui.button {
-	bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 30px;
-    display: inline-block;
+
+.sidebar-item:hover {
+	background-color: #4e7285;
+}
+
+.sidebar-icon {
+	padding-right: 40px;
+}
+
+.sidebar-item-selector {
+	width: 7px;
+	height: 100%;
+	background-color: #a39ff6;
+}
+
+.sidebar-item-selected {
+	background-color: #4e7285;
+}
+
+.content-window {
+	background-color:white;
+
+	display: flex;
+
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.25);
+
+	height: 75%;
+	width: 80%;
+
+	padding: 10%;
+}
+
+.slide-title {
+	font-size: 28px;
+	color: #577f95;
+	font-weight: 700;
+
+	padding-bottom: 40px;
+}
+
+.slide-text {
+	font-size: 18px;
+	letter-spacing: 1px;
+
+	padding-bottom: 40px;
+}
+
+.slide-buttons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.slide-button {
+	background-color: #3a83bf;
+	color: white;
+
+	font-weight: 700;
+
+	height: 50px;
+	width: 200px;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 5px;
+}
+
+.slide-button:hover {
+	cursor: pointer;
 }
