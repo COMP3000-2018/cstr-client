@@ -11,7 +11,7 @@ import {
     GradientDefs
   } from 'react-vis';
 
-class ChartComponent extends Component {
+class BarChart extends Component {
 
       render() {
         return (
@@ -37,4 +37,4 @@ class ChartComponent extends Component {
       }
     }
 
-export default ChartComponent;
+export default BarChart;

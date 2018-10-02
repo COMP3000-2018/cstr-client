@@ -13,7 +13,7 @@ import {
   Hint
 } from 'react-vis';
 
-class ChartComponent2 extends Component {
+class BloodChart extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -105,4 +105,4 @@ class ChartComponent2 extends Component {
       }
     }
 
-export default ChartComponent2;
+export default BloodChart;
