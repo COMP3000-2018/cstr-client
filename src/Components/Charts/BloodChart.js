@@ -7,8 +7,6 @@ import {
   VerticalGridLines,
   HorizontalGridLines,
   AreaSeries,
-  GradientDefs,
-  Borders,
   MarkSeries,
   Hint
 } from 'react-vis';
@@ -36,53 +34,45 @@ class BloodChart extends Component {
     render() {
         const {value} = this.state;
         return (
-          <XYPlot xDomain={[35, 105]} yDomain={[65, 195]} width={600} height={600}>
+          <XYPlot xDomain={[35, 105]} yDomain={[65, 195]} width={300} height={300}>
             <VerticalGridLines />
             <HorizontalGridLines />
             <AreaSeries
-            color={'red'}
-              data={[
-                {x: 40, y: 70},
-                {x: 40, y: 190},
-                {x: 100, y: 190},
-                {x: 100, y: 70}
-              ]}
-            />
-            <AreaSeries
-            color={'yellow'}
-              data={[
-                {x: 40, y: 70},
-                {x: 40, y: 140},
-                {x: 90, y: 140},
-                {x: 90, y: 70}
-              ]}
-            />
-            <AreaSeries
-            color={'green'}
-              data={[
-                {x: 40, y: 70},
-                {x: 40, y: 120},
-                {x: 80, y: 120},
-                {x: 80, y: 70}
-              ]}
-            />
-            <AreaSeries
-              color={'blue'}
-              data={[
-                {x: 40, y: 70},
-                {x: 40, y: 90},
-                {x: 60, y: 90},
-                {x: 60, y: 70}
-              ]}
-            />
-            <Borders
-              style={{
-                bottom: {fill: '#fff'},
-                left: {fill: 'url(#CoolGradient)', opacity: 0.3},
-                right: {fill: '#fff'},
-                top: {fill: '#fff'}
-              }}
-            />
+                       color={'#fb3d32'}
+                       data={[
+                         {x: 40, y: 70},
+                         {x: 40, y: 190},
+                         {x: 100, y: 190},
+                         {x: 100, y: 70}
+                       ]}
+                     />
+                     <AreaSeries
+                     color={'#ffdc39'}
+                       data={[
+                         {x: 40, y: 70},
+                         {x: 40, y: 140},
+                         {x: 90, y: 140},
+                         {x: 90, y: 70}
+                       ]}
+                     />
+                     <AreaSeries
+                     color={'#3ab451'}
+                       data={[
+                         {x: 40, y: 70},
+                         {x: 40, y: 120},
+                         {x: 80, y: 120},
+                         {x: 80, y: 70}
+                       ]}
+                     />
+                     <AreaSeries
+                       color={'#005798'}
+                       data={[
+                         {x: 40, y: 70},
+                         {x: 40, y: 90},
+                         {x: 60, y: 90},
+                         {x: 60, y: 70}
+                       ]}
+                     />
             <XAxis />
             <YAxis />
             <MarkSeries

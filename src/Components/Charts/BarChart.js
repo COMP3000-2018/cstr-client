@@ -16,7 +16,7 @@ class BarChart extends Component {
       render() {
         return (
           <XYPlot
-          xDomain={[85, 100]} yDomain={[-1, 1]} width={600} height={200}
+          xDomain={[85, 100]} yDomain={[-1, 1]} width={300} height={100}
           >
           <GradientDefs>
           <linearGradient id="CoolGradient" x1="0" x2="1" y1="0" y2="0">
