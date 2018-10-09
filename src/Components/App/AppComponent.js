@@ -6,7 +6,6 @@ class AppComponent extends Component {
             <div>App Page Works!</div>
         );
     }
-
 }
 
 export default AppComponent;
