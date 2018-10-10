@@ -80,11 +80,15 @@ class HistoryComponent extends Component {
     const { loading } = this.state;
 
     if (loading) {
-      return <div>Loading</div>;
+      return <div>
+          <h1>Patient History</h1>
+          Loading
+        </div>;
     }
     
     return(
         <div>
+        <h1>Patient History</h1>
         <div class="historyTitle">{this.getName()}</div>
         <div class="historySubtitle">Info</div>
         <div class="historyText"><b>Age:</b> {this.getAge()}</div>

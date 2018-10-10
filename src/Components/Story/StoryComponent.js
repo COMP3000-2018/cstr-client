@@ -41,7 +41,9 @@ class StoryComponent extends Component {
     const { loading, currentSlide } = this.state;
 
     if (loading) {
-      return <div>Loading!</div>;
+      return <div>
+        <h1>Story</h1>
+          Loading!</div>;
     }
 
     const { title, text, buttons } = currentSlide;
