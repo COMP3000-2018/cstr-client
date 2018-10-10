@@ -5,8 +5,11 @@ import BarSeries from './BarChart.js';
 class ChartComponent extends Component {
     render() {
         return(
-            <div><BloodChart/>
-            <BarSeries/></div>
+            <div>
+                <h1>Test Results</h1>
+                <BloodChart/>
+                <BarSeries/>
+            </div>
         );
     }
 

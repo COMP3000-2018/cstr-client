@@ -250,3 +250,20 @@ body {
 .padder {
   padding-bottom: 30px;
 }
+
+/* Table */
+table {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+tr {
+    border: 1px solid lightgrey;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+}
+/* End Table */
