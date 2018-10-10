@@ -71,6 +71,10 @@ class HistoryComponent extends Component {
         }
         return result
     }
+
+    getDescription() {
+        return "Being a small town, you are working as the hospital doctor and also a GP. Nathan is a 2nd year carpentry apprentice who lives with his brother just out of Barcaldine. He smokes 20 cigarettes a day and has done since he was 14 years old. He is also a regular marijuana smoker. He states that he drinks alcohol only socially. Nathan is normally well with no medical conditions. He had a tetanus booster when he started his apprenticeship at age 15. You last saw him 6 weeks ago with a cigarette lighter burn to his forearm. It is being managed conservatively."
+    }
     
     render() {
     const { loading } = this.state;
@@ -81,11 +85,14 @@ class HistoryComponent extends Component {
     
     return(
         <div>
-        <h1>{this.getName()}</h1>
-        <h2>Info</h2>
-        <p>Age: {this.getAge()}</p>
-        <p>Gender: {this.getGender()}</p>
-        <p>Additional Information: {this.getAdditionalInfo()}</p>
+        <div class="historyTitle">{this.getName()}</div>
+        <div class="historySubtitle">Info</div>
+        <div class="historyText"><b>Age:</b> {this.getAge()}</div>
+        <div class="historyText"><b>Gender:</b> {this.getGender()}</div>
+        <div class="historyText"><b>Additional Information:</b> {this.getAdditionalInfo()}</div>
+        <div class="padder"> </div>
+        <div class="historySubtitle">Description</div>
+        <div class="historyText">{this.getDescription()}</div>
         </div>
     );
     }

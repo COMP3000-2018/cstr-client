@@ -51,7 +51,7 @@ class Slide extends Component {
         <div className="slide-buttons">
           {this.state.buttons.map(button => {
             return (
-              <div className="slide-button" onClick={() => this.props.changeSlide(button.next_slide)}>
+              <div className="button" onClick={() => this.props.changeSlide(button.next_slide)}>
                 {button.label}
               </div>
             );
