@@ -3,7 +3,20 @@ import React, { Component } from 'react';
 class AppComponent extends Component {
     render() {
         return(
-            <div>App Page Works!</div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Sans Undertale</td>
+                    </tr>
+                    <tr>
+                        <td>Sans Undertale</td>
+                    </tr>
+                    <tr>
+                        <td>Sans Undertale</td>
+                    </tr>
+                </table>
+            </div>
+
         );
     }
 }
