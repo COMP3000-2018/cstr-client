@@ -263,11 +263,19 @@ table {
     padding: 10px;
 }
 
+table label {
+    padding-left: 10px;
+}
+
 tr {
     border: 1px solid lightgrey;
 }
 
 td {
     padding: 10px 10px 10px 10px;
+}
+
+td:not(:last-child) {
+    border-right: 1px solid lightgrey;
 }
 /* End Table */

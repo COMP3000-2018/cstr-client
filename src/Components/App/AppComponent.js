@@ -12,7 +12,7 @@ class AppComponent extends Component {
                     </tr>
                     <tr>
                         <td>Glasgow Coma Scale</td>
-                        <td><a href="https://www.mdcalc.com/glasgow-coma-scale-score-gcs">https://www.mdcalc.com/glasgow-coma-scale-score-gcs</a></td>
+                        <td><a href="../gcs">http://localhost:3000/gcs</a></td>
                     </tr>
                     <tr>
                         <td>Lund-Browder Chart</td>

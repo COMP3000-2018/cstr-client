@@ -6,6 +6,7 @@ import StoryComponent from "./Story/StoryComponent";
 import ChartComponent from "./Charts/ChartComponent";
 import HistoryComponent from "./History/HistoryComponent";
 import AppComponent from "./App/AppComponent";
+import CGSComponent from "./GCS/GCSComponent";
 
 class Content extends Component {
     render() {
@@ -32,6 +33,11 @@ class Content extends Component {
                             path={"/app"}
                             exact={true}
                             render={() => <AppComponent />}
+                        />
+                        <Route
+                            path={"/gcs"}
+                            exact={true}
+                            render={() => <CGSComponent />}
                         />
                     </Switch>
                 </div>
