@@ -88,7 +88,16 @@ class GCSComponent extends Component {
                         </td>
                     </tr>
                 </table>
-                <h2>GCS Score: </h2>
+                <table>
+                    <tr>
+                        <td>
+                            <h3>GCS Score: <h2 id='score'>15 points</h2></h3>
+                        </td>
+                        <td>
+                            <h3>GCS Breakdown: <h2 id='detailedScore'>E4V5M6</h2></h3>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
         );
