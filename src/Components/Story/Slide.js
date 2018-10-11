@@ -22,6 +22,10 @@ class Slide extends Component {
   }
 
   updateButtons(buttons) {
+    if (!buttons || buttons.length === 0) {
+      return;
+    }
+    
     this.setState({ loading: true }, () => {
       Promise.all(
         buttons.map(buttonId =>
