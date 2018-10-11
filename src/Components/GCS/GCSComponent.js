@@ -138,7 +138,7 @@ class GCSComponent extends Component {
                             </div>
                             <div>
                                 <input type="radio" id="V3" name="V" value="V3" onClick={this.calculate} />
-                                <label for="V3">Innapropriate Words (+3)</label>
+                                <label for="V3">Inappropriate Words (+3)</label>
                             </div>
                             <div>
                                 <input type="radio" id="V2" name="V" value="V2" onClick={this.calculate} />
@@ -150,7 +150,7 @@ class GCSComponent extends Component {
                             </div>
                             <div>
                                 <input type="radio" id="V1t" name="V" value="V1t" onClick={this.calculate} />
-                                <label for="V1t">Incubated (+1t)</label>
+                                <label for="V1t">Intubated (+1t)</label>
                             </div>
                         </td>
                         <td>
