@@ -7,6 +7,8 @@ import ChartComponent from "./Charts/ChartComponent";
 import HistoryComponent from "./History/HistoryComponent";
 import AppComponent from "./App/AppComponent";
 import CGSComponent from "./GCS/GCSComponent";
+import InvestigationsComponent from "./Investigations/InvestigationsComponent";
+import DiscussionComponent from "./Discussion/DiscussionComponent";
 
 class Content extends Component {
     render() {
@@ -18,6 +20,16 @@ class Content extends Component {
                             path={"/story"}
                             exact={true}
                             render={() => <StoryComponent />}
+                        />
+                        <Route
+                            path={"/discussion"}
+                            exact={true}
+                            render={() => <DiscussionComponent />}
+                        />
+                        <Route
+                            path={"/Investigations"}
+                            exact={true}
+                            render={() => <InvestigationsComponent />}
                         />
                         <Route
                             path={"/charts"}
