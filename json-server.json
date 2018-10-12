@@ -222,9 +222,8 @@
     {
       "id": "ef57ab0a-57a0-4796-b699-344a04c064ff",
       "title": "What Would You Do Next? 1",
-      "text": "",
+      "text": "What should go here",
       "buttons": [
-        "6744ef08-43ff-4f20-9e87-46f6d9592203",
         "8968cd43-c364-4dc4-aefe-03afebab8693",
         "0155ee68-b62a-42eb-b899-b99da7c960af",
         "b4f90105-dab6-471d-8ca8-60308784bcf0",
@@ -236,21 +235,20 @@
     {
       "id": "03d310ad-5bec-44d8-8719-b84d13a74fe5",
       "title": "What are your assessment actions?",
-      "text": "",
+      "text": "would anthing go here?",
       "buttons": [
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
         "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
         "be8cff6c-9c70-421e-877d-d95fc724681e",
         "045b2958-fb61-43a8-9873-6fe017c6b790",
         "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
-        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
-        "9a5cac2b-f658-426c-af4e-b23b7c1c975f"
+        "fd13743f-1db5-4c19-a599-ee42d0ef218e"
       ]
     },
     {
       "id": "bf803373-3706-483a-9fd2-c615292b7b86",
       "title": "What are your management actions?",
-      "text": "",
+      "text": "yes?",
       "buttons": [
         "9a5cac2b-f658-426c-af4e-b23b7c1c975f",
         "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
@@ -263,7 +261,7 @@
 	{
       "id": "084c37d3-175b-4656-ad06-4d8b6d7f3949",
       "title": "Initial Assessment Results",
-      "text": "Nathan and is alert and oriented with a GCS of 15 [app]. . He states his pain as being worse in the neck and right arm with 8/10 pain. He is talking in full sentences with no stridor but on examination of his oral cavity he is found to have glottic swelling and carbonaceous sputum. He is noted to have cool extremities but all pulses are present. \n RR – 20 /min; SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular; BP – 120/70 mmHg; T – 35°C; WT – 75kg",
+      "text": "here one",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
 	  ]
@@ -271,7 +269,7 @@
 	{
       "id": "e66fc783-567c-4641-9277-fc4d0871b292",
       "title": "Initial Treatment Results",
-      "text": "Nathan and is alert and oriented with a GCS of 15 [app]. . He states his pain as being worse in the neck and right arm with 8/10 pain. He is talking in full sentences with no stridor but on examination of his oral cavity he is found to have glottic swelling and carbonaceous sputum. He is noted to have cool extremities but all pulses are present. \n RR – 20 /min; SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular; BP – 120/70 mmHg; T – 35°C; WT – 75kg",
+      "text": "here two",
       "buttons": [
 		"cb67acaa-dd55-47ae-91f6-8f9af70af3b3"
 	  ]
@@ -292,7 +290,7 @@
 	{
       "id": "beb53cd7-5336-4d05-8e6f-d518c4dac7f1",
       "title": "Evaluate Burns",
-      "text": "Nathan’s % total body surface area (%TBSA) of burn is calculated [app] using a Lund-Browder chart to be 62% with 59% full thickness burns, 2% deep dermal and 1% partial thickness burns. Both his arms have suffered circumferential burns from shoulder tip to hands. His neck, back and posterior legs have also been badly burnt with his face sustaining partial thickness burns from nose down.",
+      "text": "His burns are x",
       "buttons": [
 	    "1de6363c-87d7-4a99-83b8-a2c91bce1ae7"
 	  ]
@@ -300,7 +298,7 @@
 	{
       "id": "",
       "title": "Review Chart",
-      "text": "Being a small town, you are working as the hospital doctor and also a GP. Nathan is a 2nd year carpentry apprentice who lives with his brother just out of Barcaldine. He smokes 20 cigarettes a day and has done since he was 14 years old. He is also a regular marijuana smoker. He states that he drinks alcohol only socially. Nathan is normally well with no medical conditions. He had a tetanus booster when he started his apprenticeship at age 15. You last saw him 6 weeks ago with a cigarette lighter burn to his forearm. It is being managed conservatively.",
+      "text": "review chart",
       "buttons": [
 	      "eabcf103-c317-4f02-80f4-70616af8997b"
 	  ]
@@ -308,7 +306,7 @@
     {
       "id": "957fbb2f-8a75-4777-9f80-c59137b83491",
       "title": "Transfer – ANZBA guidelines app",
-      "text": "Please open up the ANZBA app: ",
+      "text": "Please open up the ANZBA",
       "buttons": [
         "8001f4eb-69f9-43fa-b9e4-cea8693211ab",
         "6b465a2d-96a9-4306-8fd3-a33842005633"
@@ -325,7 +323,6 @@
       "title": "What Would You Do Next? 2",
       "text": "",
       "buttons": [
-        "6744ef08-43ff-4f20-9e87-46f6d9592203",
         "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
         "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
         "b4f90105-dab6-471d-8ca8-60308784bcf0",

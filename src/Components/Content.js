@@ -5,8 +5,14 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import StoryComponent from "./Story/StoryComponent";
 import ChartComponent from "./Charts/ChartComponent";
 import HistoryComponent from "./History/HistoryComponent";
-import AppComponent from "./App/AppComponent";
 import CGSComponent from "./GCS/GCSComponent";
+//C:\Users\rexsw\Documents\cstr-client\src\Components\GCS\GCSComponent.js
+import LBChartComponent from "./Lund-Browder/LBChartComponent";
+//C:\Users\rexsw\Documents\cstr-client\src\Components\Lund-Browder\LBChartComponent.js
+import ANZBACompohent from "./ANZBA/ANZBACompohent";
+//C:\Users\rexsw\Documents\cstr-client\src\Components\ANZBA\ANZBACompohent.js
+import DiccussionCompohent from "./Diccussion/DiccussionCompohent";
+//C:\Users\rexsw\Documents\cstr-client\src\Components\Diccussion\DiccussionCompohent.js
 
 class Content extends Component {
     render() {
@@ -20,7 +26,12 @@ class Content extends Component {
                             render={() => <StoryComponent />}
                         />
                         <Route
-                            path={"/charts"}
+                            path={"/Diccussion"}
+                            exact={true}
+                            render={() => <DiccussionCompohent />}
+                        />
+                        <Route
+                            path={"/Physicals"}
                             exact={true}
                             render={() => <ChartComponent />}
                         />
@@ -30,9 +41,14 @@ class Content extends Component {
                             render={() => <HistoryComponent />}
                         />
                         <Route
-                            path={"/app"}
+                            path={"/Lund-Browder"}
                             exact={true}
-                            render={() => <AppComponent />}
+                            render={() => <LBChartComponent />}
+                        />
+                        <Route
+                            path={"/ANZBA"}
+                            exact={true}
+                            render={() => <ANZBACompohent />}
                         />
                         <Route
                             path={"/gcs"}

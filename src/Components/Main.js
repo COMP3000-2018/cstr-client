@@ -23,20 +23,36 @@ class Main extends Component {
     render() {
         const sidebarItems = [
             {
-                "name": "Story",
-                "icon": "fa-book"
+                "name": "Physicals",
+                "icon": "fa-chart-bar"
             },
             {
-                "name": "Charts",
-                "icon": "fa-chart-bar"
+                "name": "Investigations",
+                "icon": "fa-search"
             },
             {
                 "name": "History",
                 "icon": "fa-history"
             },
             {
-                "name": "App",
+                "name": "GCS",
                 "icon": "fa-star"
+            },
+            {
+                "name": "ANZBA",
+                "icon": "fa-star"
+            },
+            {
+                "name": "Lund-Browder",
+                "icon": "fa-star"
+            },
+            {
+                "name": "Story",
+                "icon": "fa-book"
+            },
+            {
+                "name": "Diccussion",
+                "icon": "fa-tasks"
             },
         ];
 
