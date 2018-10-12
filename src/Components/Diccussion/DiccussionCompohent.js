@@ -40,9 +40,9 @@ class DiccussionComponent extends Component {
     render() {
         return(
             <div>
-                <h1>Test Results</h1>
+                <h1>Diccussion Starters</h1>
                 <Dropdown
-            title="Select Data"
+            title="Select Points"
             list={this.state.datasets}
             content = {this.state.x}
           />

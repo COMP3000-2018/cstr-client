@@ -10,13 +10,35 @@ class Main extends Component {
         super(props);
 
         this.state = {
-            currentlySelected: "Story"
+            currentlySelected: "Case Story"
         };
     }
 
     changeCurrentlySelected(currentlySelected) {
         this.setState({ currentlySelected }, () => {
-            this.props.history.push(`/${this.state.currentlySelected}`)
+            
+            switch (this.state.currentlySelected) {
+                case "Glasgow Coma Scale":
+                    this.props.history.push("gcs");
+                    break;
+                case "Physical Examination":
+                    this.props.history.push("charts");
+                    break;
+                case "ANZBA Guidelines":
+                    window.open("https://anzba.org.au/care/referral-criteria/");
+                    break;
+                case "TBSA Calculator":
+                    window.open("https://www.researchgate.net/figure/The-Lund-and-Browder-Chart-for-calculation-of-TBSA-Permission-to-reproduce-from_fig2_306034027");
+                    break;
+                case "Case Story":
+                    this.props.history.push("story");
+                    break;
+                case "Discussion Starters":
+                    this.props.history.push("discussion");
+                    break;
+                default:
+                    this.props.history.push(`/${this.state.currentlySelected}`);     
+            }
         });
     }
 

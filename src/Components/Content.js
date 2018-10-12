@@ -6,13 +6,10 @@ import StoryComponent from "./Story/StoryComponent";
 import ChartComponent from "./Charts/ChartComponent";
 import HistoryComponent from "./History/HistoryComponent";
 import CGSComponent from "./GCS/GCSComponent";
-//C:\Users\rexsw\Documents\cstr-client\src\Components\GCS\GCSComponent.js
 import LBChartComponent from "./Lund-Browder/LBChartComponent";
-//C:\Users\rexsw\Documents\cstr-client\src\Components\Lund-Browder\LBChartComponent.js
+import InvestigationsComponent from "./Investigations/InvestigationsComponent";
 import ANZBACompohent from "./ANZBA/ANZBACompohent";
-//C:\Users\rexsw\Documents\cstr-client\src\Components\ANZBA\ANZBACompohent.js
 import DiccussionCompohent from "./Diccussion/DiccussionCompohent";
-//C:\Users\rexsw\Documents\cstr-client\src\Components\Diccussion\DiccussionCompohent.js
 
 class Content extends Component {
     render() {
@@ -24,6 +21,11 @@ class Content extends Component {
                             path={"/story"}
                             exact={true}
                             render={() => <StoryComponent />}
+                        />
+                        <Route
+                            path={"/Investigations"}
+                            exact={true}
+                            render={() => <InvestigationsComponent />}
                         />
                         <Route
                             path={"/Diccussion"}
