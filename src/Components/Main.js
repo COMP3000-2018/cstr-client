@@ -10,8 +10,14 @@ class Main extends Component {
         super(props);
 
         this.state = {
-            currentlySelected: "Case Story"
+            currentlySelected: "Story"
         };
+        
+        // Redirect to story if on main page
+        if (window.location.pathname == "/") {
+            window.location.href = 'Story';
+        }
+        
     }
 
     changeCurrentlySelected(currentlySelected) {
