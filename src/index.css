@@ -89,8 +89,7 @@ h1 {
   width: 80%;
 
   padding: 80px;
-
-  overflow: hidden;
+overflow-y: auto;
 }
 
 .slide-title {
@@ -282,21 +281,25 @@ td:not(:last-child) {
 
 /* Bottom align story items */
 .section-story:last-of-type {
-    position: absolute;
-    bottom: 0;
-    width: 15vw;
+  position: absolute;
+  bottom: 0;
+  width: 15vw;
 }
 
 .section-story:nth-last-of-type(2) {
-    position: absolute;
-    bottom: 60px;
-    width: 15vw;
+  position: absolute;
+  bottom: 60px;
+  width: 15vw;
 }
 
 .referralCriteria {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .referralCriteria li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#LBChart {
+  height: 90%;
 }

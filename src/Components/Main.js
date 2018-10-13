@@ -30,9 +30,6 @@ class Main extends Component {
                 case "Physical Examination":
                     this.props.history.push("charts");
                     break;
-                case "TBSA Calculator":
-                    window.open("https://www.researchgate.net/figure/The-Lund-and-Browder-Chart-for-calculation-of-TBSA-Permission-to-reproduce-from_fig2_306034027");
-                    break;
                 case "Case Story":
                     this.props.history.push("story");
                     break;
