@@ -292,3 +292,11 @@ td:not(:last-child) {
     bottom: 60px;
     width: 15vw;
 }
+
+.referralCriteria {
+    font-size: 18px;
+}
+
+.referralCriteria li {
+    padding-bottom: 10px;
+}
