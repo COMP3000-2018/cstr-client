@@ -279,3 +279,16 @@ td:not(:last-child) {
     border-right: 1px solid lightgrey;
 }
 /* End Table */
+
+/* Bottom align story items */
+.section-story:last-of-type {
+    position: absolute;
+    bottom: 0;
+    width: 15vw;
+}
+
+.section-story:nth-last-of-type(2) {
+    position: absolute;
+    bottom: 60px;
+    width: 15vw;
+}

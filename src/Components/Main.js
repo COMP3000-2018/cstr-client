@@ -46,35 +46,43 @@ class Main extends Component {
         const sidebarItems = [
             {
                 "name": "Physicals",
-                "icon": "fa-chart-bar"
+                "icon": "fa-chart-bar",
+                "category": "charts"
             },
             {
                 "name": "Investigations",
-                "icon": "fa-search"
+                "icon": "fa-search",
+                "category": "charts"
             },
             {
                 "name": "History",
-                "icon": "fa-history"
+                "icon": "fa-history",
+                "category": "charts"
             },
             {
                 "name": "GCS",
-                "icon": "fa-star"
+                "icon": "fa-star",
+                "category": "app"
             },
             {
                 "name": "ANZBA",
-                "icon": "fa-star"
+                "icon": "fa-star",
+                "category": "app"
             },
             {
                 "name": "Lund-Browder",
-                "icon": "fa-star"
+                "icon": "fa-star",
+                "category": "app"
             },
             {
                 "name": "Story",
-                "icon": "fa-book"
+                "icon": "fa-book",
+                "category": "story"
             },
             {
                 "name": "Diccussion",
-                "icon": "fa-tasks"
+                "icon": "fa-tasks",
+                "category": "story"
             },
         ];
 
