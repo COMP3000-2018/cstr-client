@@ -191,6 +191,8 @@ class GCSComponent extends Component {
                         </td>
                     </tr>
                 </table>
+                <br></br>
+                <i>Source: Glasgow Coma Scale/Score (GCS). (n.d.). Retrieved October 13, 2018, from <a href="https://www.mdcalc.com/glasgow-coma-scale-score-gcs">https://www.mdcalc.com/glasgow-coma-scale-score-gcs</a></i>
             </div>
         );
     }

@@ -22,7 +22,7 @@ class ANZBAComponent extends Component {
                     <li>Non-accidental burns</li>
                 </ul>
         
-                <i>Source: <a href="https://anzba.org.au/care/referral-criteria/">https://anzba.org.au/care/referral-criteria/</a></i>
+                <i>Source: ANZBA. (n.d.). ANZBA Referral Criteria. Retrieved October 13, 2018, from <a href="https://anzba.org.au/care/referral-criteria/">https://anzba.org.au/care/referral-criteria/</a></i>
             </div>
 
         );
