@@ -33,6 +33,7 @@ class BarChart extends Component {
     }
   }
 
+      // <div>{Title}</div>
       render() {
         const{xdom, Title,choice,vale, colours} = this.state
         return (
@@ -48,7 +49,6 @@ class BarChart extends Component {
             color={'black'}
             data={[{x: vale, y: 1}]}
             />
-            <div>{Title}</div>
           </XYPlot>
         );
       }
