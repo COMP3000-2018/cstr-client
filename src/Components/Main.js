@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-
 import Sidebar from './Sidebar/Sidebar';
 import Content from './Content';
-
+import Progress from '../Progress.js';
 import { withRouter } from 'react-router-dom';
 
 class Main extends Component {
@@ -18,6 +17,14 @@ class Main extends Component {
             window.location.href = 'Story';
         }
         
+        // clear saved data
+        Progress.Discovered = {
+            BloodPressure: false,
+            HeartRate: false,
+            OxygenSaturation: false,
+            Temperature: false,
+            Weight: false
+        }
     }
 
     changeCurrentlySelected(currentlySelected) {
