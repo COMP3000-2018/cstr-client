@@ -9,7 +9,7 @@ import CGSComponent from "./GCS/GCSComponent";
 import LBChartComponent from "./Lund-Browder/LBChartComponent";
 import InvestigationsComponent from "./Investigations/InvestigationsComponent";
 import ANZBACompohent from "./ANZBA/ANZBACompohent";
-import DiccussionCompohent from "./Diccussion/DiccussionCompohent";
+import DiscussionCompohent from "./Discussion/DiscussionCompohent";
 
 class Content extends Component {
     render() {
@@ -30,7 +30,7 @@ class Content extends Component {
                         <Route
                             path={"/Discussion"}
                             exact={true}
-                            render={() => <DiccussionCompohent />}
+                            render={() => <DiscussionCompohent />}
                         />
                         <Route
                             path={"/Physicals"}

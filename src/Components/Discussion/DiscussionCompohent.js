@@ -3,7 +3,7 @@ import Collapse from '../Accordion/Collapse.jsx';
 import Panel from '../Accordion/Panel.jsx';
 require('../Accordion/collapse.css');
 
-class DiccussionComponent extends Component {
+class DiscussionComponent extends Component {
     constructor(){
         super()
         this.state = {
@@ -73,4 +73,4 @@ class DiccussionComponent extends Component {
 
 }
 
-export default DiccussionComponent;
+export default DiscussionComponent;
