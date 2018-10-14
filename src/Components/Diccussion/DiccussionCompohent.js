@@ -11,9 +11,9 @@ class DiccussionComponent extends Component {
           datasets: [
             {
                 id: 0,
-                title: 'Diccussion Points 1',
+                title: 'Discussion Points 1',
                 selected: false,
-                key: 'Diccussion Points',
+                key: 'Discussion Points',
                 x: <ul><li>Is there any significance in his previous burn?</li>
                 <li>How are burns assessed with respect to thickness and total body surface area?</li>
                 <li>What is the pathophysiology of the various types of burns?</li>
@@ -25,9 +25,9 @@ class DiccussionComponent extends Component {
             },
             {
               id: 1,
-              title: 'Diccussion Points 2',
+              title: 'Discussion Points 2',
               selected: false,
-              key: 'Diccussion Points',
+              key: 'Discussion Points',
               x: <ul><li>What are the most common sources of burns in adults? What about children?</li>
               <li>How can the severity of a burn be judged?</li>
               <li>What are the immediate and longer term complications of a burn?</li>
@@ -42,7 +42,7 @@ class DiccussionComponent extends Component {
     render() {
         return(
             <div>    
-                <h1>Diccussion Starters</h1>
+                <h1>Discussion Starters</h1>
                 <Collapse accordion={true}>
                     <Panel header="Discussion Points 1" headerClass="discussion-panels">
                         <ol class="discussion-points">

@@ -222,7 +222,7 @@
     {
       "id": "ef57ab0a-57a0-4796-b699-344a04c064ff",
       "title": "What Would You Do Next? 1",
-      "text": "What should go here",
+      "text": "",
       "buttons": [
         "8968cd43-c364-4dc4-aefe-03afebab8693",
         "0155ee68-b62a-42eb-b899-b99da7c960af",
@@ -235,33 +235,59 @@
     {
       "id": "03d310ad-5bec-44d8-8719-b84d13a74fe5",
       "title": "What are your assessment actions?",
-      "text": "would anthing go here?",
+      "text": "",
       "buttons": [
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
         "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
         "be8cff6c-9c70-421e-877d-d95fc724681e",
         "045b2958-fb61-43a8-9873-6fe017c6b790",
         "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
-        "fd13743f-1db5-4c19-a599-ee42d0ef218e"
+        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
+        "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
       ]
     },
     {
       "id": "bf803373-3706-483a-9fd2-c615292b7b86",
       "title": "What are your management actions?",
-      "text": "yes?",
+      "text": "",
       "buttons": [
         "9a5cac2b-f658-426c-af4e-b23b7c1c975f",
         "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
         "4d9e07b4-a3f7-4090-bd28-0edc6f5cd0fa",
         "687e7f6a-a37b-4ce0-8e91-a45081d376a2",
         "7ed68d3e-f717-409b-931f-53351bbe19e2",
-        "d34f7904-9454-4358-9c1d-f1418de21016"
+        "d34f7904-9454-4358-9c1d-f1418de21016",
+        "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
       ]
     },
 	{
-      "id": "084c37d3-175b-4656-ad06-4d8b6d7f3949",
-      "title": "Initial Assessment Results",
-      "text": "here one",
+      "id": "084c37d3-175b-4656-ad16-4d8b6d7f3949",
+      "title": "Assessment Results - Airway",
+      "text": "On examination of his oral cavity you find evdience of glottic swelling and carbonaceous sputum",
+      "buttons": [
+		"f2c309f2-ab22-454c-a504-7da3693f6125"
+	  ]
+    },
+  	{
+      "id": "084c37d3-175b-4656-ad26-4d8b6d7f3949",
+      "title": "Assessment Results - Vitals",
+      "text": "You quickly enter his vitals into the EHR (See Physicals for data)",
+      "buttons": [
+		"f2c309f2-ab22-454c-a504-7da3693f6125"
+	  ]
+    },
+    {
+      "id": "084c37d3-175b-4656-ad36-4d8b6d7f3949",
+      "title": "Assessment Results - Burn area",
+      "text": "You note down his burn areas (See the Lund-Browder app for data)",
+      "buttons": [
+		"f2c309f2-ab22-454c-a504-7da3693f6125"
+	  ]
+    },
+    {
+      "id": "084c37d3-175b-4656-ad46-4d8b6d7f3949",
+      "title": "Assessment Results - Consciousness",
+      "text": "His Eye Opening is Spontaneously his Verbal Response is Oriented and his Obeys Commands (Use the GCS app to calculate his GCS)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
 	  ]
@@ -269,9 +295,17 @@
 	{
       "id": "e66fc783-567c-4641-9277-fc4d0871b292",
       "title": "Initial Treatment Results",
-      "text": "here two",
+      "text": "Your choosen pain control is effective",
       "buttons": [
-		"cb67acaa-dd55-47ae-91f6-8f9af70af3b3"
+		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
+	  ]
+    },
+    {
+      "id": "e66fc783-567c-4641-9278-fc4d0871b292",
+      "title": "Initial Treatment Results",
+      "text": "You intube him with a size 7.0 endotracheal tube",
+      "buttons": [
+		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
     },
     {
@@ -411,32 +445,39 @@
       "next_slide": ""
     },
     {
+      "id": "45559f40-fffb-4f5d-9bf7-61ce117c5bb7",
+      "label": "Back",
+      "error": "",
+      "success": "",
+      "next_slide": "ef57ab0a-57a0-4796-b699-344a04c064ff"
+    },
+    {
       "id": "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
       "label": "Airway and breathing",
       "error": "",
       "success": "",
-      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+      "next_slide": "084c37d3-175b-4656-ad16-4d8b6d7f3949"
     },
     {
       "id": "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
-      "label": "Circulation",
+      "label": "Vitals",
       "error": "",
       "success": "",
-      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+      "next_slide": "084c37d3-175b-4656-ad26-4d8b6d7f3949"
     },
     {
       "id": "be8cff6c-9c70-421e-877d-d95fc724681e",
       "label": "Estimation of burn area",
       "error": "",
       "success": "",
-      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+      "next_slide": "084c37d3-175b-4656-ad36-4d8b6d7f3949"
     },
     {
       "id": "045b2958-fb61-43a8-9873-6fe017c6b790",
       "label": "Level of consciousness",
       "error": "",
       "success": "",
-      "next_slide": "084c37d3-175b-4656-ad06-4d8b6d7f3949"
+      "next_slide": "084c37d3-175b-4656-ad46-4d8b6d7f3949"
     },
     {
       "id": "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
@@ -485,14 +526,14 @@
       "label": "Fluid administration",
       "error": "",
       "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+      "next_slide": ""
     },
     {
       "id": "d34f7904-9454-4358-9c1d-f1418de21016",
       "label": "Intubation",
       "error": "",
       "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
+      "next_slide": "e66fc783-567c-4641-9278-fc4d0871b292"
     },
     {
       "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
@@ -587,10 +628,10 @@
     },
     {
       "id": "f2c309f2-ab22-454c-a504-7da3693f6125",
-      "label": "Assessment Next",
+      "label": "Back to assessments",
       "error": "",
       "success": "",
-      "next_slide": "ddb3dc70-2df3-4589-8e44-abb87c9e3cfd"
+      "next_slide": "03d310ad-5bec-44d8-8719-b84d13a74fe5"
     },
     {
       "id": "cb67acaa-dd55-47ae-91f6-8f9af70af3b3",
