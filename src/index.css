@@ -301,7 +301,7 @@ td:not(:last-child) {
 }
 
 #LBChart {
-  height: 90%;
+  width: 50%;
 }
 
 .discussion-points {
@@ -320,4 +320,16 @@ td:not(:last-child) {
 .discussion-points li {
   padding-bottom: 10px;
   padding-left: 10px;
+}
+
+#LBChart span {
+    display: flex;
+}
+
+#LBChart table {
+    margin: 5px;
+}
+
+#LBChart table:last-of-type {
+    width: 600px;
 }
