@@ -80,7 +80,7 @@ class Main extends Component {
                 "category": "story"
             },
             {
-                "name": "Diccussion",
+                "name": "Discussion",
                 "icon": "fa-tasks",
                 "category": "story"
             },

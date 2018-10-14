@@ -28,7 +28,7 @@ class Content extends Component {
                             render={() => <InvestigationsComponent />}
                         />
                         <Route
-                            path={"/Diccussion"}
+                            path={"/Discussion"}
                             exact={true}
                             render={() => <DiccussionCompohent />}
                         />
