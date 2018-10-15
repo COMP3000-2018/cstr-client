@@ -145,6 +145,14 @@
       ]
     },
     {
+      "id": "a678dac8-3097-414a-864d-10bda308ca17",
+      "title": "Next Stage in Treatment",
+      "text": "Nathan has been assessed, and stabilised with your initial management. You now consider whether he can be optimally managed in Barcaldine or needs to be transferred to a larger centre. Check the ANZBA guidelines.",
+      "buttons": [
+        "a610dff3-a40e-44a9-8cc3-40b9c1cd7479"
+      ]
+    },
+    {
       "id": "a366cf72-e6ff-4741-9efd-9845789eb7c3",
       "title": "What Would You Do Next?",
       "text": "",
@@ -404,6 +412,13 @@
       "error": "",
       "success": "",
       "next_slide": ""
+    },
+    {
+      "id": "a610dff3-a40e-44a9-8cc3-40b9c1cd7479",
+      "label": "Reset Story",
+      "error": "",
+      "success": "",
+      "next_slide": "a678dac8-3097-414a-864d-10bda308ca17"
     }
   ]
 }
