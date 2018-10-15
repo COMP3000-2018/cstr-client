@@ -52,6 +52,15 @@ class Slide extends Component {
     }
     
 
+  // really we should break button out into its own component. TODO
+  setButtonOnClick(button) {
+    if (button.error) {
+      return (() => alert(button.error));
+    } else {
+      return (() => this.props.changeSlide(button.next_slide));
+    }
+  }
+
   render() {
     const { loading } = this.state;
 
@@ -68,7 +77,8 @@ class Slide extends Component {
         <div className="slide-buttons">
           {this.state.buttons.map(button => {
             return (
-              <div className="button" onClick={() => this.props.changeSlide(button.next_slide)}>
+              // <div className="button" onClick={() => this.props.changeSlide(button.next_slide)}>
+              <div className="button" onClick={this.setButtonOnClick(button)}>
                 {button.label}
               </div>
             );

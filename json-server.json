@@ -221,7 +221,7 @@
     },
     {
       "id": "ef57ab0a-57a0-4796-b699-344a04c064ff",
-      "title": "What Would You Do Next? 1",
+      "title": "What Do You Do?",
       "text": "",
       "buttons": [
         "8968cd43-c364-4dc4-aefe-03afebab8693",
@@ -258,6 +258,22 @@
         "7ed68d3e-f717-409b-931f-53351bbe19e2",
         "d34f7904-9454-4358-9c1d-f1418de21016",
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
+      ]
+    },
+    {
+      "id": "bf803373-3706-483a-9fd2-c615292b7b87",
+      "title": "Conclusion",
+      "text": "After stabilizing Nathan You must now decide to adamit him to Barcaldine Base Hospital or Transfer him to a burns unit (You should review the ANZBA guidelines)",
+      "buttons": [
+        "e53d7d91-f47b-4925-99fd-eea4f8cf9d53",
+        "e53d7d91-f47b-4925-99fd-eea4f8cf9d54"
+      ]
+    },
+    {
+      "id": "bf803373-3706-483a-9fd2-c615292b7b88",
+      "title": "Conclusion",
+      "text": "Following the ANZBA guidelines, you decide to transfer Nathan to the Burns Unit in Brisbane. You cover Nathan’s burns with gladwrap in preparation for transport.",
+      "buttons": [
       ]
     },
     {
@@ -370,7 +386,7 @@
     },
     {
       "id": "20f99d03-36d5-41c5-9928-d2cffe0a558a",
-      "title": "What Would You Do Next? 2",
+      "title": "What Would You Do Next? ",
       "text": "",
       "buttons": [
         "fe91dd02-7252-4034-9fac-384d6a7bcf4e",
@@ -383,7 +399,7 @@
     },
     {
       "id": "86a4ce86-4de3-41ac-84e4-c4d89f6fa380",
-      "title": "What Would You Do Next? 3",
+      "title": "What Would You Do Next? ",
       "text": "",
       "buttons": [
         "f1a48afb-01f1-47f3-8f48-1c43cf0728bc",
@@ -397,7 +413,7 @@
     },
     {
       "id": "a366cf72-e6ff-4741-9efd-9845789eb7c3",
-      "title": "What Would You Do Next? 4",
+      "title": "What Would You Do Next? ",
       "text": "",
       "buttons": [
         "6744ef08-43ff-4f20-9e87-46f6d9592203",
@@ -417,6 +433,20 @@
       "error": "More important things to do right now",
       "success": "",
       "next_slide": ""
+    },
+    {
+      "id": "e53d7d91-f47b-4925-99fd-eea4f8cf9d53",
+      "label": "Admit",
+      "error": "Check the ANZBA guidelines again",
+      "success": "",
+      "next_slide": ""
+    },
+    {
+      "id": "e53d7d91-f47b-4925-99fd-eea4f8cf9d54",
+      "label": "Transfer",
+      "error": "",
+      "success": "",
+      "next_slide": "bf803373-3706-483a-9fd2-c615292b7b88"
     },
     {
       "id": "8968cd43-c364-4dc4-aefe-03afebab8693",
