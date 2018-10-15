@@ -29,7 +29,7 @@ class Slide extends Component {
     this.setState({ loading: true }, () => {
       Promise.all(
         buttons.map(buttonId =>
-          fetch(`http://localhost:1989/buttons/${buttonId}`).then(resp =>
+          fetch(`http://cstr.uqcloud.net/mock/buttons/${buttonId}`).then(resp =>
             resp.json()
           )
         )
