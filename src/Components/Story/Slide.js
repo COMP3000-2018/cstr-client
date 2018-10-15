@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Progress from '../../Progress.js';
 
 import { Button } from 'semantic-ui-react';
 
@@ -67,8 +68,18 @@ class Slide extends Component {
     if (loading) {
       return <div>Loading</div>;
     }
-
+        
     const { title, text, buttons } = this.props;
+      
+    if (title == "Assessment Results - Vitals") {
+        Progress.Discovered = {
+            BloodPressure: true,
+            HeartRate: true,
+            OxygenSaturation: true,
+            Temperature: true,
+            Weight: true
+        }
+    }
 
     return (
       <div className="slide">

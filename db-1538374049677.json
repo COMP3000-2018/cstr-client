@@ -118,7 +118,7 @@
     },
     {
       "id": "20f99d03-36d5-41c5-9928-d2cffe0a558a",
-      "title": "What Would You Do Next? 2",
+      "title": "What Would You Do Next?",
       "text": "",
       "buttons": [
         "6744ef08-43ff-4f20-9e87-46f6d9592203",
@@ -132,7 +132,7 @@
     },
     {
       "id": "86a4ce86-4de3-41ac-84e4-c4d89f6fa380",
-      "title": "What Would You Do Next? 3",
+      "title": "What Would You Do Next?",
       "text": "",
       "buttons": [
         "f1a48afb-01f1-47f3-8f48-1c43cf0728bc",
@@ -145,8 +145,16 @@
       ]
     },
     {
+      "id": "a678dac8-3097-414a-864d-10bda308ca17",
+      "title": "Next Stage in Treatment",
+      "text": "Nathan has been assessed, and stabilised with your initial management. You now consider whether he can be optimally managed in Barcaldine or needs to be transferred to a larger centre. Check the ANZBA guidelines.",
+      "buttons": [
+        "a610dff3-a40e-44a9-8cc3-40b9c1cd7479"
+      ]
+    },
+    {
       "id": "a366cf72-e6ff-4741-9efd-9845789eb7c3",
-      "title": "What Would You Do Next? 4",
+      "title": "What Would You Do Next?",
       "text": "",
       "buttons": [
         "6744ef08-43ff-4f20-9e87-46f6d9592203",
@@ -296,30 +304,23 @@
     {
       "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
       "label": "Paracetamol",
-      "error": "Not appropriate",
+      "error": "That option is not appropriate for the situation",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "9990a95c-1b9b-415a-8713-0d8007d489e3",
       "label": "Ibuprofen",
-      "error": "Not appropriate",
+      "error": "That option is not appropriate for the situation",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "5c28424a-0f66-4958-b4d5-e99944cac6a8",
       "label": "Codeine",
-      "error": "Not appropriate",
+      "error": "That option is not appropriate for the situation",
       "success": "",
       "next_slide": ""
-    },
-    {
-      "id": "11fe9125-3647-4026-81fd-943fd2769893",
-      "label": "Fentanyl",
-      "error": "RIP Lil Peep",
-      "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
     },
     {
       "id": "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
@@ -331,7 +332,7 @@
     {
       "id": "d88d3f60-52aa-41b6-9c97-19dc309004ad",
       "label": "Distraction therapy",
-      "error": "Not appropriate",
+      "error": "That option is not appropriate for the situation",
       "success": "",
       "next_slide": ""
     },
@@ -411,6 +412,13 @@
       "error": "",
       "success": "",
       "next_slide": ""
+    },
+    {
+      "id": "a610dff3-a40e-44a9-8cc3-40b9c1cd7479",
+      "label": "Reset Story",
+      "error": "",
+      "success": "",
+      "next_slide": "a678dac8-3097-414a-864d-10bda308ca17"
     }
   ]
 }

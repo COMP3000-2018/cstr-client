@@ -1,28 +1,24 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar/Sidebar';
 import Content from './Content';
-import Progress from '../Progress.js';
 import { withRouter } from 'react-router-dom';
 
 class Main extends Component {
     constructor(props) {
         super(props);
 
+        const savedCurrentlySelected = localStorage.getItem('currentlySelected');
+
         this.state = {
-            currentlySelected: "Story"
-        };
-        
-        // clear saved data
-        Progress.Discovered = {
-            BloodPressure: true,
-            HeartRate: true,
-            OxygenSaturation: true,
-            Temperature: true,
-            Weight: true
+            currentlySelected: savedCurrentlySelected ? savedCurrentlySelected : "Story"
         }
+
+        this.changeCurrentlySelected(this.state.currentlySelected);
     }
 
     changeCurrentlySelected(currentlySelected) {
+        localStorage.setItem('currentlySelected', currentlySelected);
+
         this.setState({ currentlySelected }, () => {
             
             switch (this.state.currentlySelected) {

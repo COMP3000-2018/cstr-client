@@ -238,11 +238,11 @@
       "text": "",
       "buttons": [
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
+        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
         "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
         "be8cff6c-9c70-421e-877d-d95fc724681e",
-        "045b2958-fb61-43a8-9873-6fe017c6b790",
         "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
-        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
+        "045b2958-fb61-43a8-9873-6fe017c6b790",
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
       ]
     },
@@ -297,7 +297,7 @@
       "id": "084c37d3-175b-4656-ad26-4d8b6d7f3949",
       "title": "Assessment Results - Vitals",
       "trophy": "vitals",
-      "text": "You record his vitals: EHR RR – 20 /min SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular BP – 120/70 mmHg T – 35°C Wt – 75kg You enter his vitals into the EHR (See Physical for data)",
+      "text": "You enter his vitals into the EHR (See Physical for data): RR – 20 /min, SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation), HR – 140bpm, regular BP – 120/70 mmHg, T – 35°C, Wt – 75kg",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
 	  ]
@@ -355,7 +355,6 @@
         "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
         "9990a95c-1b9b-415a-8713-0d8007d489e3",
         "5c28424a-0f66-4958-b4d5-e99944cac6a8",
-        "11fe9125-3647-4026-81fd-943fd2769893",
         "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
         "d88d3f60-52aa-41b6-9c97-19dc309004ad"
       ]
@@ -472,21 +471,21 @@
     {
       "id": "b4f90105-dab6-471d-8ca8-60308784bcf0",
       "label": "Order tests",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "eccbd194-ff97-4b22-857e-03341dfadd0a",
       "label": "Check history",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": "bf803373-3706-483a-9fd1-c615292b7b86"
     },
     {
       "id": "6b2accde-9c7e-4d94-95be-b514506d0853",
       "label": "Admit",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -514,7 +513,7 @@
     {
       "id": "fd13743f-1db5-4c19-a599-ee42d0ef218e",
       "label": "Abdomen examination",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -528,7 +527,7 @@
     {
       "id": "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
       "label": "Mental health status",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -556,21 +555,21 @@
     {
       "id": "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
       "label": "Tetanus status",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "4d9e07b4-a3f7-4090-bd28-0edc6f5cd0fa",
       "label": "ECG",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "687e7f6a-a37b-4ce0-8e91-a45081d376a2",
       "label": "Blood administration",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -591,30 +590,23 @@
     {
       "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
       "label": "Paracetamol",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "9990a95c-1b9b-415a-8713-0d8007d489e3",
       "label": "Ibuprofen",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "5c28424a-0f66-4958-b4d5-e99944cac6a8",
       "label": "Codeine",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
-    },
-    {
-      "id": "11fe9125-3647-4026-81fd-943fd2769893",
-      "label": "Fentanyl",
-      "error": "RIP Lil Peep",
-      "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
     },
     {
       "id": "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
@@ -626,7 +618,7 @@
     {
       "id": "d88d3f60-52aa-41b6-9c97-19dc309004ad",
       "label": "Distraction therapy",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },

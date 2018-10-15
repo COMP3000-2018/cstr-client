@@ -332,5 +332,9 @@ td:not(:last-child) {
 }
 
 .backButton {
-    background-color: #DEDEDE;
+    background-color: #CDCDCD;
+}
+
+.referralCriteria input {
+    margin: 10px 10px 0 0;
 }
