@@ -52,18 +52,18 @@ class Main extends Component {
     render() {
         const sidebarItems = [
             {
-                "name": "Physicals",
+                "name": "History",
+                "icon": "fa-history",
+                "category": "charts"
+            },
+            {
+                "name": "Physical",
                 "icon": "fa-chart-bar",
                 "category": "charts"
             },
             {
                 "name": "Investigations",
                 "icon": "fa-search",
-                "category": "charts"
-            },
-            {
-                "name": "History",
-                "icon": "fa-history",
                 "category": "charts"
             },
             {
