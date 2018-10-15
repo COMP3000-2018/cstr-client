@@ -41,7 +41,6 @@ class Slide extends Component {
 
   // really we should break button out into its own component. TODO
   setButtonOnClick(button) {
-    debugger;
     if (button.error) {
       return (() => alert(button.error));
     } else {
