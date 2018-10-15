@@ -348,7 +348,6 @@
         "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
         "9990a95c-1b9b-415a-8713-0d8007d489e3",
         "5c28424a-0f66-4958-b4d5-e99944cac6a8",
-        "11fe9125-3647-4026-81fd-943fd2769893",
         "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
         "d88d3f60-52aa-41b6-9c97-19dc309004ad"
       ]
@@ -584,30 +583,23 @@
     {
       "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
       "label": "Paracetamol",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "9990a95c-1b9b-415a-8713-0d8007d489e3",
       "label": "Ibuprofen",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "5c28424a-0f66-4958-b4d5-e99944cac6a8",
       "label": "Codeine",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
-    },
-    {
-      "id": "11fe9125-3647-4026-81fd-943fd2769893",
-      "label": "Fentanyl",
-      "error": "RIP Lil Peep",
-      "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
     },
     {
       "id": "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
@@ -619,7 +611,7 @@
     {
       "id": "d88d3f60-52aa-41b6-9c97-19dc309004ad",
       "label": "Distraction therapy",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
