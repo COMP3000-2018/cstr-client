@@ -6,7 +6,7 @@ class InvestigationsComponent extends Component {
             <div>
                 <h1> Investigations </h1>
             
-                Coming soon
+                <i>None ordered.</i>
             </div>
         );
     }

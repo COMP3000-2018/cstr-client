@@ -73,7 +73,7 @@ class HistoryComponent extends Component {
     }
 
     getDescription() {
-        return "Being a small town, you are working as the hospital doctor and also a GP. Nathan is a 2nd year carpentry apprentice who lives with his brother just out of Barcaldine. He smokes 20 cigarettes a day and has done since he was 14 years old. He is also a regular marijuana smoker. He states that he drinks alcohol only socially. Nathan is normally well with no medical conditions. He had a tetanus booster when he started his apprenticeship at age 15. You last saw him 6 weeks ago with a cigarette lighter burn to his forearm. It is being managed conservatively."
+        return "Past Medical History: Nil Vaccination history: Fully vaccinated as a child Tetanus booster 15 yo Social History: - 2nd year carpentry apprentice, lives with brother - Cigarettes 20/day, since 14 yo - Marijuana – regular - Alcohol - social Recent visits: 5/9/18: Presented with burn left forearm. States accidental burn from cigarette lighter. Conservative management."
     }
     
     render() {

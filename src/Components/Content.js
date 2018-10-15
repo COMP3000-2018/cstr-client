@@ -33,7 +33,7 @@ class Content extends Component {
                             render={() => <DiscussionCompohent />}
                         />
                         <Route
-                            path={"/Physicals"}
+                            path={"/Physical"}
                             exact={true}
                             render={() => <ChartComponent />}
                         />

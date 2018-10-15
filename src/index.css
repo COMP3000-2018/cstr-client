@@ -117,6 +117,7 @@ overflow-y: auto;
   background-color: #3a83bf;
   color: white;
 
+  font-size: 18px;
   font-weight: 700;
 
   height: 50px;
@@ -328,4 +329,8 @@ td:not(:last-child) {
 
 .hiddenTable, .hiddenTable td:first-child {
     border: none;
+}
+
+.backButton {
+    background-color: #DEDEDE;
 }

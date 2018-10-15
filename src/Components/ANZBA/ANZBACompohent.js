@@ -8,18 +8,18 @@ class ANZBAComponent extends Component {
             
                 <i>Refer patient if any of the following criteria match:</i>
                 <ul className="referralCriteria">
-                    <li>Burns greater than 10% Total Body Surface Area (TBSA)</li>
-                    <li>Burns greater than 5% TBSA in children</li>
-                    <li>Full Thickness burns greater than 5% TBSA</li>
-                    <li>Burns of Special Areas – Face, Hands, Feet, Genitalia, Perineum, Major Joints and circumferential limb or chest burns</li>
-                    <li>Burns with inhalation injury</li>
-                    <li>Electrical burns</li>
-                    <li>Chemical burns</li>
-                    <li>Burns with pre-existing illness</li>
-                    <li>Burns associated with major trauma</li>
-                    <li>Burns at the extremes of age – young children and the elderly.</li>
-                    <li>Burn injury in pregnant women</li>
-                    <li>Non-accidental burns</li>
+                    <div><input type="checkbox"/>Burns greater than 10% Total Body Surface Area (TBSA)</div>
+                    <div><input type="checkbox"/>Burns greater than 5% TBSA in children</div>
+                    <div><input type="checkbox"/>Full Thickness burns greater than 5% TBSA</div>
+                    <div><input type="checkbox"/>Burns of Special Areas – Face, Hands, Feet, Genitadiva, Perineum, Major Joints and circumferential divmb or chest burns</div>
+                    <div><input type="checkbox"/>Burns with inhalation injury</div>
+                    <div><input type="checkbox"/>Electrical burns</div>
+                    <div><input type="checkbox"/>Chemical burns</div>
+                    <div><input type="checkbox"/>Burns with pre-existing illness</div>
+                    <div><input type="checkbox"/>Burns associated with major trauma</div>
+                    <div><input type="checkbox"/>Burns at the extremes of age – young children and the elderly.</div>
+                    <div><input type="checkbox"/>Burn injury in pregnant women</div>
+                    <div><input type="checkbox"/>Non-accidental burns</div>
                 </ul>
         
                 <i>Source: ANZBA. (n.d.). ANZBA Referral Criteria. Retrieved October 13, 2018, from <a href="https://anzba.org.au/care/referral-criteria/">https://anzba.org.au/care/referral-criteria/</a></i>

@@ -35,9 +35,22 @@ class Slide extends Component {
         )
       ).then(retrievedButtons => {
         this.setState({ buttons: retrievedButtons, loading: false });
+        this.setBackButtons()  
+        
       });
     });
+    
   }
+    
+    setBackButtons() {
+      var x = document.getElementsByClassName("button");
+      for (let i = 0; i < x.length; i++) {
+        if (x[i].innerHTML.includes("Back")) {
+          x[i].classList.add("backButton");
+        }
+      }
+    }
+    
 
   // really we should break button out into its own component. TODO
   setButtonOnClick(button) {

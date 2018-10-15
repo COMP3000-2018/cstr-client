@@ -12,11 +12,6 @@ class Main extends Component {
             currentlySelected: "Story"
         };
         
-        // Redirect to story if on main page
-        if (window.location.pathname == "/") {
-            window.location.href = 'Story';
-        }
-        
         // clear saved data
         Progress.Discovered = {
             BloodPressure: true,
@@ -52,7 +47,12 @@ class Main extends Component {
     render() {
         const sidebarItems = [
             {
-                "name": "Physicals",
+                "name": "History",
+                "icon": "fa-history",
+                "category": "charts"
+            },
+            {
+                "name": "Physical",
                 "icon": "fa-chart-bar",
                 "category": "charts"
             },
@@ -62,17 +62,12 @@ class Main extends Component {
                 "category": "charts"
             },
             {
-                "name": "History",
-                "icon": "fa-history",
-                "category": "charts"
-            },
-            {
-                "name": "GCS",
+                "name": "ANZBA",
                 "icon": "fa-star",
                 "category": "app"
             },
             {
-                "name": "ANZBA",
+                "name": "GCS",
                 "icon": "fa-star",
                 "category": "app"
             },
