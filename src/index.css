@@ -300,10 +300,6 @@ td:not(:last-child) {
   padding-bottom: 10px;
 }
 
-#LBChart {
-  height: 90%;
-}
-
 .discussion-points {
   font-size: 18px;
 }
@@ -320,4 +316,16 @@ td:not(:last-child) {
 .discussion-points li {
   padding-bottom: 10px;
   padding-left: 10px;
+}
+
+#LBChart i {
+    padding: 20px 0 20px 0;
+}
+
+#LBChart table {
+    margin: 5px;
+}
+
+.hiddenTable, .hiddenTable td:first-child {
+    border: none;
 }

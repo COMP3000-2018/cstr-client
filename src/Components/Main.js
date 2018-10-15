@@ -19,11 +19,11 @@ class Main extends Component {
         
         // clear saved data
         Progress.Discovered = {
-            BloodPressure: false,
-            HeartRate: false,
-            OxygenSaturation: false,
-            Temperature: false,
-            Weight: false
+            BloodPressure: true,
+            HeartRate: true,
+            OxygenSaturation: true,
+            Temperature: true,
+            Weight: true
         }
     }
 
