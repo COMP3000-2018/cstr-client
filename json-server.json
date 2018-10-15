@@ -237,12 +237,12 @@
       "title": "What are your assessment actions?",
       "text": "",
       "buttons": [
-        "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
         "fd13743f-1db5-4c19-a599-ee42d0ef218e",
-        "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
+        "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
         "be8cff6c-9c70-421e-877d-d95fc724681e",
-        "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
         "045b2958-fb61-43a8-9873-6fe017c6b790",
+        "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
+        "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
       ]
     },
@@ -326,16 +326,16 @@
       "text": "Your choosen pain control is effective",
       "trophy": "pain",
       "buttons": [
-		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
+		"45559f40-fffb-4f5d-9bf7-61ce117c5bb8"
 	  ]
     },
     {
       "id": "e66fc783-567c-4641-9278-fc4d0871b292",
       "title": "Initial Treatment Results",
-      "text": "You intube him with a size 7.0 endotracheal tube",
+      "text": "You intubate him with a size 7.0 endotracheal tube",
       "trophy": "tube",
       "buttons": [
-		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
+		"45559f40-fffb-4f5d-9bf7-61ce117c5bb8"
 	  ]
     },
     {
@@ -344,7 +344,7 @@
       "text": "You put in a central line and commence 1L IV Hartmanns Solution",
       "trophy": "fluids",
       "buttons": [
-		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
+		"45559f40-fffb-4f5d-9bf7-61ce117c5bb8"
 	  ]
     },
     {
@@ -486,7 +486,7 @@
     {
       "id": "eccbd194-ff97-4b22-857e-03341dfadd0a",
       "label": "Check history",
-      "error": "This is not the best choice right now.",
+      "error": "While you perform assessment and management, you ask the nurse to check his EMR. (Read from History tab)",
       "success": "",
       "next_slide": "bf803373-3706-483a-9fd1-c615292b7b86"
     },
@@ -500,7 +500,7 @@
     {
       "id": "83d922dd-de32-4a9c-87f6-7ee3956449a8",
       "label": "Transfer",
-      "error": "Don't need to yet",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -510,6 +510,13 @@
       "error": "",
       "success": "",
       "next_slide": "ef57ab0a-57a0-4796-b699-344a04c064ff"
+    },
+    {
+      "id": "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
+      "label": "Back",
+      "error": "",
+      "success": "",
+      "next_slide": "bf803373-3706-483a-9fd2-c615292b7b86"
     },
     {
       "id": "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
