@@ -12,11 +12,6 @@ class Main extends Component {
             currentlySelected: "Story"
         };
         
-        // Redirect to story if on main page
-        if (window.location.pathname == "/") {
-            window.location.href = 'Story';
-        }
-        
         // clear saved data
         Progress.Discovered = {
             BloodPressure: true,
