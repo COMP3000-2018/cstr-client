@@ -83,6 +83,8 @@ class Slide extends Component {
             Temperature: true,
             Weight: true
         }
+    } else if (title === 'Case Presentation') {
+      Progress.completed = false;
     }
 
     return (
