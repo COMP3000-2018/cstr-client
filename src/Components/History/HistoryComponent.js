@@ -73,7 +73,11 @@ class HistoryComponent extends Component {
     }
 
     getDescription() {
-        return "Past Medical History: Nil Vaccination history: Fully vaccinated as a child Tetanus booster 15 yo Social History: - 2nd year carpentry apprentice, lives with brother - Cigarettes 20/day, since 14 yo - Marijuana – regular - Alcohol - social Recent visits: 5/9/18: Presented with burn left forearm. States accidental burn from cigarette lighter. Conservative management."
+        return <div>
+            <p><strong>Past Medical History:</strong> Nil</p> 
+            <p><strong>Vaccination history:</strong> Fully vaccinated as a child Tetanus booster 15 yo</p>
+            <p><strong>Social History:</strong> - 2nd year carpentry apprentice, lives with brother - Cigarettes 20/day, since 14 yo - Marijuana – regular - Alcohol - social</p>
+            <p><strong>Recent visits:</strong> 5/9/18: Presented with burn left forearm. States accidental burn from cigarette lighter. Conservative management.</p></div>
     }
     
     render() {
@@ -88,14 +92,12 @@ class HistoryComponent extends Component {
     
     return(
         <div>
-        <h1>Patient History</h1>
-        <div class="historyTitle">{this.getName()}</div>
-        <div class="historySubtitle">Info</div>
+        <h1>Patient History - {this.getName()}</h1>
+        <h2>Info</h2>
         <div class="historyText"><b>Age:</b> {this.getAge()}</div>
         <div class="historyText"><b>Gender:</b> {this.getGender()}</div>
         <div class="historyText"><b>Additional Information:</b> {this.getAdditionalInfo()}</div>
-        <div class="padder"> </div>
-        <div class="historySubtitle">Description</div>
+        <h2>Description</h2>
         <div class="historyText">{this.getDescription()}</div>
         </div>
     );
