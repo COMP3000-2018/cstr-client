@@ -8,10 +8,6 @@ class Main extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            currentlySelected: "Story"
-        };
-        
         // clear saved data
         Progress.Discovered = {
             BloodPressure: true,
@@ -20,9 +16,19 @@ class Main extends Component {
             Temperature: true,
             Weight: true
         }
+
+        const savedCurrentlySelected = localStorage.getItem('currentlySelected');
+
+        this.state = {
+            currentlySelected: savedCurrentlySelected ? savedCurrentlySelected : "Story"
+        }
+
+        this.changeCurrentlySelected(this.state.currentlySelected);
     }
 
     changeCurrentlySelected(currentlySelected) {
+        localStorage.setItem('currentlySelected', currentlySelected);
+
         this.setState({ currentlySelected }, () => {
             
             switch (this.state.currentlySelected) {

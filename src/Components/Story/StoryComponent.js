@@ -8,16 +8,16 @@ class StoryComponent extends Component {
 
     this.state = {
       initialSlideId: "8ac3bcb9-5b6a-496b-b31a-c4ce706e87e2",
-      currentSlide: {},
+      currentSlide: JSON.parse(localStorage.getItem('currentSlide')),
       loading: true
     };
   }
 
   componentDidMount() {
     console.log('Mounted');
-    const { initialSlideId } = this.state;
+    const { initialSlideId, currentSlide } = this.state;
 
-    this.retrieveSlide(initialSlideId);
+    this.retrieveSlide(currentSlide && Object.keys(currentSlide).length !== 0 ? currentSlide.id : initialSlideId);
   }
 
   retrieveSlide(slideId) {
@@ -26,6 +26,7 @@ class StoryComponent extends Component {
         return response.json();
       })
       .then(currentSlide => {
+        localStorage.setItem('currentSlide', JSON.stringify(currentSlide));
         this.setState({
           loading: false,
           currentSlide

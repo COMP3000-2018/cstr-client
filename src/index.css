@@ -330,3 +330,11 @@ td:not(:last-child) {
 .hiddenTable, .hiddenTable td:first-child {
     border: none;
 }
+
+.backButton {
+    background-color: #CDCDCD;
+}
+
+.referralCriteria input {
+    margin: 10px 10px 0 0;
+}
