@@ -19,7 +19,6 @@ class StoryComponent extends Component {
     console.log(`Trophy count: ${Object.keys(Progress.trophies).length}`)
     if (Object.keys(Progress.trophies).length === 7) {
       Progress.completed = true;
-      Progress.trophies = {};
       this.retrieveSlide('a678dac8-3097-414a-864d-10bda308ca17') // please forgive me
     }
   }

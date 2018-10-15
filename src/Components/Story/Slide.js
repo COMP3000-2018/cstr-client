@@ -84,12 +84,14 @@ class Slide extends Component {
             Weight: true
         }
     } else if (title === 'Case Presentation') {
+      Progress.trophies = {};
       Progress.completed = false;
     }
 
     return (
       <div className="slide">
         <div className="slide-title">{title}</div>
+        <div className="slide-trophy-count">{`${Object.keys(Progress.trophies).length}/7 actions completed`}</div>
         <div className="slide-text">{text}</div>
         <div className="slide-buttons">
           {this.state.buttons.map(button => {
