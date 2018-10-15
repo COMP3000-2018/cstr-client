@@ -287,6 +287,7 @@
 	{
       "id": "084c37d3-175b-4656-ad16-4d8b6d7f3949",
       "title": "Assessment Results - Airway",
+      "trophy": "airway",
       "text": "On examination of his oral cavity you find evdience of glottic swelling and carbonaceous sputum",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -295,6 +296,7 @@
   	{
       "id": "084c37d3-175b-4656-ad26-4d8b6d7f3949",
       "title": "Assessment Results - Vitals",
+      "trophy": "vitals",
       "text": "You record his vitals: EHR RR – 20 /min SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation). HR – 140bpm, regular BP – 120/70 mmHg T – 35°C Wt – 75kg You enter his vitals into the EHR (See Physical for data)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -303,6 +305,7 @@
     {
       "id": "084c37d3-175b-4656-ad36-4d8b6d7f3949",
       "title": "Assessment Results - Burn area",
+      "trophy": "burns",
       "text": "You note down his burn areas (See the Lund-Browder app for data)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -311,6 +314,7 @@
     {
       "id": "084c37d3-175b-4656-ad46-4d8b6d7f3949",
       "title": "Assessment Results - Consciousness",
+      "trophy": "consciousness",
       "text": "His eyes are open spontaneously and verbal responses are oriented. He follows motor commands (Use the GCS app to calculate his GCS)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -320,6 +324,7 @@
       "id": "e66fc783-567c-4641-9277-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "Your choosen pain control is effective",
+      "trophy": "pain",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
@@ -328,6 +333,7 @@
       "id": "e66fc783-567c-4641-9278-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "You intube him with a size 7.0 endotracheal tube",
+      "trophy": "tube",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
@@ -336,6 +342,7 @@
       "id": "e66fc783-567c-4641-9279-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "You put in a central line and commence 1L IV Hartmanns Solution",
+      "trophy": "fluids",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
