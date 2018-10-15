@@ -465,21 +465,21 @@
     {
       "id": "b4f90105-dab6-471d-8ca8-60308784bcf0",
       "label": "Order tests",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "eccbd194-ff97-4b22-857e-03341dfadd0a",
       "label": "Check history",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": "bf803373-3706-483a-9fd1-c615292b7b86"
     },
     {
       "id": "6b2accde-9c7e-4d94-95be-b514506d0853",
       "label": "Admit",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -507,7 +507,7 @@
     {
       "id": "fd13743f-1db5-4c19-a599-ee42d0ef218e",
       "label": "Abdomen examination",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -521,7 +521,7 @@
     {
       "id": "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
       "label": "Mental health status",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
@@ -549,21 +549,21 @@
     {
       "id": "e53d7d91-f47b-4925-99fd-eea4f8cf9d52",
       "label": "Tetanus status",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "4d9e07b4-a3f7-4090-bd28-0edc6f5cd0fa",
       "label": "ECG",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "687e7f6a-a37b-4ce0-8e91-a45081d376a2",
       "label": "Blood administration",
-      "error": "Not important",
+      "error": "This is not the best choice right now.",
       "success": "",
       "next_slide": ""
     },
