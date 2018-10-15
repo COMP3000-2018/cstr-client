@@ -62,12 +62,12 @@ class Main extends Component {
                 "category": "charts"
             },
             {
-                "name": "GCS",
+                "name": "ANZBA",
                 "icon": "fa-star",
                 "category": "app"
             },
             {
-                "name": "ANZBA",
+                "name": "GCS",
                 "icon": "fa-star",
                 "category": "app"
             },
