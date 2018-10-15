@@ -300,10 +300,6 @@ td:not(:last-child) {
   padding-bottom: 10px;
 }
 
-#LBChart {
-  width: 50%;
-}
-
 .discussion-points {
   font-size: 18px;
 }
@@ -322,14 +318,10 @@ td:not(:last-child) {
   padding-left: 10px;
 }
 
-#LBChart span {
-    display: flex;
-}
-
 #LBChart table {
     margin: 5px;
 }
 
-#LBChart table:last-of-type {
-    width: 600px;
+.hiddenTable, .hiddenTable td:first-child {
+    border: none;
 }

@@ -5,8 +5,12 @@ class LBChartComponent extends Component {
         return(
             <div id="LBChart">
                 <h1>Lund-Browder Chart</h1>
-                <span>
-                <img src="/Images/LBChart.png" />        
+                <table class="hiddenTable"> 
+                    <tr>
+                        <td>
+                <img src="/Images/LBChart.png" /> 
+                        </td>
+                    <td>
                 <table>
                     <tr>
                         <td>
@@ -141,7 +145,9 @@ class LBChartComponent extends Component {
                         </td>
                     </tr>
                 </table>
-                </span>
+                    </td>
+                </tr>
+                </table>
                 <table>
                     <tr>
                         <td>
@@ -236,6 +242,7 @@ class LBChartComponent extends Component {
                         </td>
                     </tr>
                 </table>
+                <i>Source: Figure 2. The Lund and Browder Chart for calculation of TBSA... (n.d.). Retrieved October 13, 2018, from <a href="https://www.researchgate.net/figure/The-Lund-and-Browder-Chart-for-calculation-of-TBSA-Permission-to-reproduce-from_fig2_306034027">https://www.researchgate.net/figure/The-Lund-and-Browder-Chart-for-calculation-of-TBSA-Permission-to-reproduce-from_fig2_306034027</a></i>
             </div>
         );
     }
