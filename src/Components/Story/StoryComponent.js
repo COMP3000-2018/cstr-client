@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Progress from '../../Progress';
+
 import Slide from "./Slide";
 
 class StoryComponent extends Component {
@@ -11,6 +13,15 @@ class StoryComponent extends Component {
       currentSlide: JSON.parse(localStorage.getItem('currentSlide')),
       loading: true
     };
+  }
+
+  checkProgress() {
+    console.log(`Trophy count: ${Object.keys(Progress.trophies).length}`)
+    if (Object.keys(Progress.trophies).length === 7) {
+      Progress.completed = true;
+      Progress.trophies = {};
+      this.retrieveSlide('a678dac8-3097-414a-864d-10bda308ca17') // please forgive me
+    }
   }
 
   componentDidMount() {
@@ -41,13 +52,19 @@ class StoryComponent extends Component {
   render() {
     const { loading, currentSlide } = this.state;
 
+    if(!Progress.completed) {
+      this.checkProgress(); // this should NOT be in render; TODO
+    }
+
+
+
     if (loading) {
       return <div>
         <h1>Story</h1>
           Loading!</div>;
     }
 
-    const { title, text, buttons } = currentSlide;
+    const { title, text, buttons, trophy } = currentSlide;
 
     console.log('New slide information:', title, buttons);
 
@@ -57,6 +74,7 @@ class StoryComponent extends Component {
         title={title}
         text={text}
         buttons={buttons}
+        trophy={trophy}
       />
     );
   }
