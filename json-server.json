@@ -238,11 +238,11 @@
       "text": "",
       "buttons": [
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb8",
+        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
         "4322f2e8-583c-46cb-b356-ed6cbeb5f352",
         "be8cff6c-9c70-421e-877d-d95fc724681e",
-        "045b2958-fb61-43a8-9873-6fe017c6b790",
         "0d55d9f1-6219-403a-b2bf-1a7a60e0abf2",
-        "fd13743f-1db5-4c19-a599-ee42d0ef218e",
+        "045b2958-fb61-43a8-9873-6fe017c6b790",
         "45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
       ]
     },
@@ -287,6 +287,7 @@
 	{
       "id": "084c37d3-175b-4656-ad16-4d8b6d7f3949",
       "title": "Assessment Results - Airway",
+      "trophy": "airway",
       "text": "On examination of his oral cavity you find evdience of glottic swelling and carbonaceous sputum",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -295,6 +296,7 @@
   	{
       "id": "084c37d3-175b-4656-ad26-4d8b6d7f3949",
       "title": "Assessment Results - Vitals",
+      "trophy": "vitals",
       "text": "You enter his vitals into the EHR (See Physical for data): RR – 20 /min, SaO2 – 94% on 6L O2 via mask (prior to intubation) – now 100% (on mechanical ventilation), HR – 140bpm, regular BP – 120/70 mmHg, T – 35°C, Wt – 75kg",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -303,6 +305,7 @@
     {
       "id": "084c37d3-175b-4656-ad36-4d8b6d7f3949",
       "title": "Assessment Results - Burn area",
+      "trophy": "burns",
       "text": "You note down his burn areas (See the Lund-Browder app for data)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -311,6 +314,7 @@
     {
       "id": "084c37d3-175b-4656-ad46-4d8b6d7f3949",
       "title": "Assessment Results - Consciousness",
+      "trophy": "consciousness",
       "text": "His eyes are open spontaneously and verbal responses are oriented. He follows motor commands (Use the GCS app to calculate his GCS)",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
@@ -320,6 +324,7 @@
       "id": "e66fc783-567c-4641-9277-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "Your choosen pain control is effective",
+      "trophy": "pain",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
@@ -328,6 +333,7 @@
       "id": "e66fc783-567c-4641-9278-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "You intube him with a size 7.0 endotracheal tube",
+      "trophy": "tube",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
@@ -336,6 +342,7 @@
       "id": "e66fc783-567c-4641-9279-fc4d0871b292",
       "title": "Initial Treatment Results",
       "text": "You put in a central line and commence 1L IV Hartmanns Solution",
+      "trophy": "fluids",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb7"
 	  ]
@@ -348,7 +355,6 @@
         "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
         "9990a95c-1b9b-415a-8713-0d8007d489e3",
         "5c28424a-0f66-4958-b4d5-e99944cac6a8",
-        "11fe9125-3647-4026-81fd-943fd2769893",
         "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
         "d88d3f60-52aa-41b6-9c97-19dc309004ad"
       ]
@@ -423,6 +429,14 @@
         "eccbd194-ff97-4b22-857e-03341dfadd0a",
         "6b2accde-9c7e-4d94-95be-b514506d0853",
         "c14d3ce4-7bb7-487a-8ba3-cc104b36bdcf"
+      ]
+    },
+    {
+      "id": "a678dac8-3097-414a-864d-10bda308ca17",
+      "title": "Next Stage in Treatment",
+      "text": "Nathan has been assessed, and stabilised with your initial management. You now consider whether he can be optimally managed in Barcaldine or needs to be transferred to a larger centre. Check the ANZBA guidelines.",
+      "buttons": [
+        "a610dff3-a40e-44a9-8cc3-40b9c1cd7479"
       ]
     }
   ],
@@ -584,30 +598,23 @@
     {
       "id": "6cebc734-ebd4-4782-a741-ca4c33b6c92e",
       "label": "Paracetamol",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "9990a95c-1b9b-415a-8713-0d8007d489e3",
       "label": "Ibuprofen",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
     {
       "id": "5c28424a-0f66-4958-b4d5-e99944cac6a8",
       "label": "Codeine",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
-    },
-    {
-      "id": "11fe9125-3647-4026-81fd-943fd2769893",
-      "label": "Fentanyl",
-      "error": "RIP Lil Peep",
-      "success": "",
-      "next_slide": "e66fc783-567c-4641-9277-fc4d0871b292"
     },
     {
       "id": "3a74a17d-7a57-4c2d-87a3-58eb167ba6df",
@@ -619,7 +626,7 @@
     {
       "id": "d88d3f60-52aa-41b6-9c97-19dc309004ad",
       "label": "Distraction therapy",
-      "error": "Not appropriate",
+      "error": "That choice is not appropriate for the situation.",
       "success": "",
       "next_slide": ""
     },
@@ -699,6 +706,13 @@
       "error": "",
       "success": "",
       "next_slide": ""
+    },
+    {
+      "id": "a610dff3-a40e-44a9-8cc3-40b9c1cd7479",
+      "label": "Reset Story",
+      "error": "",
+      "success": "",
+      "next_slide": "a678dac8-3097-414a-864d-10bda308ca17"
     }
   ]
 }
