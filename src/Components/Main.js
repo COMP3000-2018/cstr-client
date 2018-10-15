@@ -1,21 +1,11 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar/Sidebar';
 import Content from './Content';
-import Progress from '../Progress.js';
 import { withRouter } from 'react-router-dom';
 
 class Main extends Component {
     constructor(props) {
         super(props);
-
-        // clear saved data
-        Progress.Discovered = {
-            BloodPressure: true,
-            HeartRate: true,
-            OxygenSaturation: true,
-            Temperature: true,
-            Weight: true
-        }
 
         const savedCurrentlySelected = localStorage.getItem('currentlySelected');
 
