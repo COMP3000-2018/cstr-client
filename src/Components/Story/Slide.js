@@ -69,8 +69,12 @@ class Slide extends Component {
       return <div>Loading</div>;
     }
         
-    const { title, text, buttons } = this.props;
-      
+    const { title, text, buttons, trophy } = this.props;
+
+    if (this.props.trophy) { // this should not be in render, need to refactor the way slides are mounted 
+      Progress.trophies[this.props.trophy] = true;
+    }
+
     if (title == "Assessment Results - Vitals") {
         Progress.Discovered = {
             BloodPressure: true,

@@ -1,2 +1,2 @@
-const Progress = {};
+const Progress = { trophies: {} };
 export default Progress;
