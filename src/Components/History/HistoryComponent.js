@@ -20,7 +20,7 @@ class HistoryComponent extends Component {
     }
     
     retrievePatient(patientId) {
-        fetch(`http://cstr.uqcloud.net/mock/patients/`).then(response => {
+        fetch(`https://cstr.uqcloud.net/mock/patients/`).then(response => {
             return response.json();
         })
         .then(patientData => {

@@ -21,7 +21,7 @@ class StoryComponent extends Component {
   }
 
   retrieveSlide(slideId) {
-    fetch(`http://cstr.uqcloud.net/mock/slides/${slideId}`)
+    fetch(`https://cstr.uqcloud.net/mock/slides/${slideId}`)
       .then(response => {
         return response.json();
       })
