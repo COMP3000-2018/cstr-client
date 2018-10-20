@@ -62,6 +62,49 @@ class Slide extends Component {
     }
   }
 
+  completedTask(task) {
+    if (Progress.trophies[task]) {
+      return(
+        <td className="completed-task">{task}</td>
+      );
+    } else {
+      return(
+        <td className="incomplete-task">???</td>
+      );
+    }
+  }
+
+  createCheckbox() {
+    return(
+      <fieldset className="status-fieldset">
+      <legend className="status-title">{`${Object.keys(Progress.trophies).length}/7 Actions Completed`}</legend>
+      <table className="status-table">
+        <tr>
+          {this.completedTask("airway")}
+        </tr>
+        <tr>
+          {this.completedTask("burns")}
+        </tr>
+        <tr>
+          {this.completedTask("consciousness")}
+        </tr>
+        <tr>
+          {this.completedTask("vitals")}
+        </tr>
+        <tr>
+          {this.completedTask("pain")}
+        </tr>
+        <tr>
+          {this.completedTask("fluids")}
+        </tr>
+        <tr>
+          {this.completedTask("tube")}
+        </tr>
+      </table>
+      </fieldset>
+    )
+  }
+
   render() {
     const { loading } = this.state;
 
@@ -74,6 +117,8 @@ class Slide extends Component {
     if (this.props.trophy) { // this should not be in render, need to refactor the way slides are mounted 
       Progress.trophies[this.props.trophy] = true;
     }
+
+    console.log(this.props.trophy);
 
     if (title == "Assessment Results - Vitals") {
         Progress.Discovered = {
@@ -91,6 +136,7 @@ class Slide extends Component {
     return (
       <div className="slide">
         <div className="slide-title">{title}</div>
+        {this.createCheckbox()}
         <div className="slide-trophy-count">{`${Object.keys(Progress.trophies).length}/7 actions completed`}</div>
         <div className="slide-text">{text}</div>
         <div className="slide-buttons">
