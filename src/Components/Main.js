@@ -13,6 +13,11 @@ class Main extends Component {
             currentlySelected: savedCurrentlySelected ? savedCurrentlySelected : "Story"
         }
 
+        // Redirect to story if on main page
+        if (window.location.pathname == "/") {
+            window.location.href = 'Story';
+        }
+
         this.changeCurrentlySelected(this.state.currentlySelected);
     }
 
