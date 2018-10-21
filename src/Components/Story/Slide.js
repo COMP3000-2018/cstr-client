@@ -30,7 +30,7 @@ class Slide extends Component {
     this.setState({ loading: true }, () => {
       Promise.all(
         buttons.map(buttonId =>
-          fetch(`https://cstr.uqcloud.net/mock/buttons/${buttonId}`).then(resp =>
+          fetch(`/mock/buttons/${buttonId}`).then(resp =>
             resp.json()
           )
         )
