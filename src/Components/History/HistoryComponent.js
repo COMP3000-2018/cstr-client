@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import config from '../../Config';
 
 class HistoryComponent extends Component {
     constructor(props) {
     super(props);
 
     this.state = {
-      patientId: "",
+      patientId: "MEDI7212-15-Patient",
       patientData: {},
       loading: true
     };
@@ -16,19 +17,24 @@ class HistoryComponent extends Component {
     
     componentDidMount() {
         const { patientId } = this.state
+
         this.retrievePatient(patientId)
     }
     
     retrievePatient(patientId) {
-        fetch(`/mock/patients/`).then(response => {
-            return response.json();
-        })
-        .then(patientData => {
-            this.setState({
-                loading: false,
-                patientData
-            });
-        });
+        fetch(`${config.GOODIES_API_ENDPOINT}/patient/${patientId}?token=${this.props.jwt}`)
+            .then(res => res.json())
+            .then(patientData => this.setState({ patientData, loading: false}));
+            //.then(res => alert(JSON.stringify(res)))
+        // fetch(`/mock/patients/`).then(response => {
+        //     return response.json();
+        // })
+        // .then(patientData => {
+        //     this.setState({
+        //         loading: false,
+        //         patientData
+        //     });
+        // });
     }
     
     getName() {
@@ -36,8 +42,8 @@ class HistoryComponent extends Component {
         return name.given + " " + name.family
     }
     
-    getAge() {
-        var birthDate = this.getResource().birthDate;
+    getAge(birthdate) {
+        //var birthDate = this.getResource().birthDate;
         var today = new Date();
         var birthDate = new Date(birthDate);
         var age = today.getFullYear() - birthDate.getFullYear();
@@ -89,16 +95,18 @@ class HistoryComponent extends Component {
           Loading
         </div>;
     }
+
+    const { birthDate, gender, name } = this.state.patientData;
     
     return(
         <div>
-        <h1>Patient History - {this.getName()}</h1>
+        <h1>Patient History - {`${name[0].given[0]} ${name[0].family}`}</h1>
         <h2>Info</h2>
-        <div class="historyText"><b>Age:</b> {this.getAge()}</div>
-        <div class="historyText"><b>Gender:</b> {this.getGender()}</div>
-        <div class="historyText"><b>Additional Information:</b> {this.getAdditionalInfo()}</div>
+        <div class="historyText"><b>Birthday</b> {birthDate}</div>
+        <div class="historyText"><b>Gender:</b> {gender}</div>
+        {/* <div class="historyText"><b>Additional Information:</b> {this.getAdditionalInfo()}</div>
         <h2>Description</h2>
-        <div class="historyText">{this.getDescription()}</div>
+        <div class="historyText">{this.getDescription()}</div> */}
         </div>
     );
     }

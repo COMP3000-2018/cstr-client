@@ -4,7 +4,7 @@ import Content from "./Content";
 import { withRouter } from "react-router-dom";
 import { access } from "fs";
 
-import config from '../Config';
+import config from "../Config";
 
 class Main extends Component {
   constructor(props) {
@@ -44,7 +44,9 @@ class Main extends Component {
     ) {
       // we've launched now. time to get some goodies
       fetch(
-        `${config.AUTH_API_ENDPOINT}/retrieve_token?code=${queryStrings.get("code")}`
+        `${config.AUTH_API_ENDPOINT}/retrieve_token?code=${queryStrings.get(
+          "code"
+        )}`
       )
         .then(res => res.json())
         .then(({ access_token }) => this.setState({ jwt: access_token }));
@@ -155,7 +157,7 @@ class Main extends Component {
           currentlySelected={this.state.currentlySelected}
           items={sidebarItems}
         />
-        <Content />
+        {this.state.jwt && <Content jwt={this.state.jwt}/>}
       </React.Fragment>
     );
   }

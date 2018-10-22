@@ -40,7 +40,7 @@ class Content extends Component {
                         <Route
                             path={"/history"}
                             exact={true}
-                            render={() => <HistoryComponent />}
+                            render={() => <HistoryComponent jwt={this.props.jwt}/>}
                         />
                         <Route
                             path={"/Lund-Browder"}
