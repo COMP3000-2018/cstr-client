@@ -288,7 +288,7 @@
       "id": "084c37d3-175b-4656-ad16-4d8b6d7f3949",
       "title": "Assessment Results - Airway",
       "trophy": "airway",
-      "text": "On examination of his oral cavity you find evdience of glottic swelling and carbonaceous sputum",
+      "text": "On examination of his oral cavity you find evidence of glottic swelling and carbonaceous sputum",
       "buttons": [
 		"f2c309f2-ab22-454c-a504-7da3693f6125"
 	  ]
@@ -323,7 +323,7 @@
 	{
       "id": "e66fc783-567c-4641-9277-fc4d0871b292",
       "title": "Initial Treatment Results",
-      "text": "Your choosen pain control is effective",
+      "text": "Your chosen pain control is effective",
       "trophy": "pain",
       "buttons": [
 		"45559f40-fffb-4f5d-9bf7-61ce117c5bb8"

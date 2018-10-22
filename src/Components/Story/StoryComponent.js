@@ -31,7 +31,7 @@ class StoryComponent extends Component {
   }
 
   retrieveSlide(slideId) {
-    fetch(`http://localhost:1989/slides/${slideId}`)
+    fetch(`/mock/slides/${slideId}`)
       .then(response => {
         return response.json();
       })

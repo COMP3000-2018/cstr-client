@@ -20,7 +20,7 @@ class HistoryComponent extends Component {
     }
     
     retrievePatient(patientId) {
-        fetch(`http://localhost:1989/patients/`).then(response => {
+        fetch(`/mock/patients/`).then(response => {
             return response.json();
         })
         .then(patientData => {
