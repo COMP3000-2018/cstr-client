@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import Progress from '../../Progress';
 
+import config from '../../Config';
+
 import Slide from "./Slide";
 
 class StoryComponent extends Component {
@@ -31,7 +33,7 @@ class StoryComponent extends Component {
   }
 
   retrieveSlide(slideId) {
-    fetch(`/mock/slides/${slideId}`)
+    fetch(`${config.CASE_API_ENDPOINT}/slides/${slideId}`)
       .then(response => {
         return response.json();
       })

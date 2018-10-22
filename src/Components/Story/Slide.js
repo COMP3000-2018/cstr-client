@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Progress from '../../Progress.js';
 
+import config from '../../Config';
+
 import { Button } from 'semantic-ui-react';
 
 class Slide extends Component {
@@ -30,7 +32,7 @@ class Slide extends Component {
     this.setState({ loading: true }, () => {
       Promise.all(
         buttons.map(buttonId =>
-          fetch(`/mock/buttons/${buttonId}`).then(resp =>
+          fetch(`${config.CASE_API_ENDPOINT}/buttons/${buttonId}`).then(resp =>
             resp.json()
           )
         )
