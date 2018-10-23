@@ -3,8 +3,10 @@ import Sidebar from "./Sidebar/Sidebar";
 import Content from "./Content";
 import { withRouter } from "react-router-dom";
 import { access } from "fs";
+import uuidv4 from "uuid/v4";
 
 import config from "../Config";
+import fhirTemplates from "../fhirTemplates";
 
 class Main extends Component {
   constructor(props) {
@@ -49,9 +51,33 @@ class Main extends Component {
         )}`
       )
         .then(res => res.json())
-        .then(({ access_token }) => this.setState({ jwt: access_token }));
+        .then(({ access_token }) =>
+          this.setState({ jwt: access_token }, () => {
+            this.createNewPatient();
+          })
+        );
       return;
     }
+  }
+
+  createNewPatient() {
+    const newPatient = fhirTemplates.patient;
+    const newPatientId = uuidv4();
+
+    newPatient.entry[0].fullUrl = `Patient/${newPatientId}`;
+    newPatient.entry[0].request.url = `Patient/${newPatientId}`;
+    newPatient.entry[0].resource.id = newPatientId;
+
+    const body = { patient: newPatient };
+
+    fetch(`${config.GOODIES_API_ENDPOINT}/patient?token=${this.state.jwt}`, {
+      method: "POST",
+      body: JSON.stringify(body)
+    })
+      .then(res => res.json())
+      .then(res => {
+        this.setState({ patientId: newPatientId });
+      });
   }
 
   retrieveQueryStrings(url) {
@@ -157,7 +183,7 @@ class Main extends Component {
           currentlySelected={this.state.currentlySelected}
           items={sidebarItems}
         />
-        {this.state.jwt && <Content jwt={this.state.jwt}/>}
+        {this.state.jwt && <Content jwt={this.state.jwt} />}
       </React.Fragment>
     );
   }
