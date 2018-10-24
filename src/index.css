@@ -92,6 +92,10 @@ h1 {
 overflow-y: auto;
 }
 
+.slide {
+  min-width: 100%;
+}
+
 .slide-title {
   font-size: 28px;
   color: #577f95;
@@ -344,4 +348,18 @@ td:not(:last-child) {
 
 .referralCriteria input {
     margin: 10px 10px 0 0;
+}
+
+.status-table {
+  border-width: 0px;
+}
+
+.status-fieldset {
+  float: right !important;
+  width: 25%;
+}
+
+.status-title {
+  font-size: 14px;
+  color: #577f95;
 }

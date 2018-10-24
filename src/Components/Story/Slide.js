@@ -63,6 +63,59 @@ class Slide extends Component {
       return (() => this.props.changeSlide(button.next_slide));
     }
   }
+  completedTask(task) {
+    // text displayed in Actions completed checklist
+    var taskMap = {
+      airway: "Airway",
+      burns: "Burns",
+      consciousness: "Consciousness",
+      vitals: "Vitals",
+      pain: "Pain",
+      fluids: "Fluids",
+      tube: "Intubate"
+    }
+    if (Progress.trophies[task]) {
+      return(
+        <td className="completed-task">{taskMap[task]}</td>
+      );
+    } else {
+      return(
+        <td className="incomplete-task">???</td>
+      );
+    }
+  }
+
+  createCheckbox() {
+    return(
+      <fieldset className="status-fieldset">
+      <legend className="status-title">{`${Object.keys(Progress.trophies).length}/7 Actions Completed`}</legend>
+      <table className="status-table">
+        <tr>
+          {this.completedTask("airway")}
+        </tr>
+        <tr>
+          {this.completedTask("burns")}
+        </tr>
+        <tr>
+          {this.completedTask("consciousness")}
+        </tr>
+        <tr>
+          {this.completedTask("vitals")}
+        </tr>
+        <tr>
+          {this.completedTask("pain")}
+        </tr>
+        <tr>
+          {this.completedTask("fluids")}
+        </tr>
+        <tr>
+          {this.completedTask("tube")}
+        </tr>
+      </table>
+      </fieldset>
+    )
+  }
+
 
   render() {
     const { loading } = this.state;
@@ -93,7 +146,8 @@ class Slide extends Component {
     return (
       <div className="slide">
         <div className="slide-title">{title}</div>
-        <div className="slide-trophy-count">{`${Object.keys(Progress.trophies).length}/7 actions completed`}</div>
+        {this.createCheckbox()}
+        <br />
         <div className="slide-text">{text}</div>
         <div className="slide-buttons">
           {this.state.buttons.map(button => {
