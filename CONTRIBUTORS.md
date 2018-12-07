@@ -3,3 +3,4 @@ The following people have contributed to this project, each agreeing to release 
 * joshuaobrien
 * chrisw310
 * gregarious96
+* jbattock
