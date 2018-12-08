@@ -4,3 +4,4 @@ The following people have contributed to this project, each agreeing to release 
 * chrisw310
 * gregarious96
 * jbattock
+* dcheu
