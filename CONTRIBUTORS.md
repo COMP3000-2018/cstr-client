@@ -6,3 +6,5 @@ The following people have contributed to this project, each agreeing to release 
 * jbattock
 * dcheu
 * bhooper-do
+* rexsw
+ 
